@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d5cce40e-fafc-4901-bf82-ceff374432f0" name="healing-ministries.org" url="http://ftp.healing-ministries.org">
+        <fileTransfer host="ftp.healing-ministries.org" port="21" rootFolder="/httpdocs/live" password="df9fdfc4df98dfdadfffdfd8df89df93dff5df9bdf99dfebdf81df8edfcfdfe5df9a" username="hm-admin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
