@@ -45,7 +45,12 @@ class DefaultController extends Controller
                 'title' => 'Ecrivez-nous',
                 'url' => 'mailto:contact@laguerison.org',
                 'image' => 'ads/temoignage.jpg',
-            ]
+            ],
+            [
+                'title' => 'Appelez-nous',
+                'url' => 'http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone',
+                'image' => 'ads/ligne-priere.jpg',
+            ],
         );
 
         return $this->render('iahmLiveBundle:Default:index.html.twig', array(
