@@ -1,0 +1,3 @@
+iahm_live_homepage:
+    path:     /
+    defaults: { _controller: iahmLiveBundle:Default:index }
