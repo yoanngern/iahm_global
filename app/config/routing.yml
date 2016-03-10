@@ -3,4 +3,4 @@ iahm_default:
 
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
-    path: /live
+    prefix: /live
