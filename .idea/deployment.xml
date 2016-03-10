@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PublishConfigData" serverName="healing-ministries.org" uploadOnCheckin="d5cce40e-fafc-4901-bf82-ceff374432f0">
+    <serverData>
+      <paths name="healing-ministries.org">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
     <option name="myUploadOnCheckinName" value="healing-ministries.org" />
   </component>
 </project>

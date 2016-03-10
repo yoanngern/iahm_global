@@ -1,6 +1,6 @@
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /live
 
 app:
     resource: "@AppBundle/Controller/"
