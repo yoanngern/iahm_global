@@ -80,13 +80,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ads\/partenaire.jpg": {
+	"\/images\/ads\/ligne-priere.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 125992,
-		"inputAbbreviatedPath": "\/images\/ads\/partenaire.jpg",
-		"outputAbbreviatedPath": "\/images\/ads\/partenaire.jpg",
+		"initialSize": 216964,
+		"inputAbbreviatedPath": "\/images\/ads\/ligne-priere.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/ligne-priere.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ads\/Partenaire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132125,
+		"inputAbbreviatedPath": "\/images\/ads\/Partenaire.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/Partenaire.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
