@@ -51,6 +51,11 @@ class DefaultController extends Controller
                 'url' => 'http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone',
                 'image' => 'ads/ligne-priere.jpg',
             ],
+            [
+                'title' => 'Up Light Studio',
+                'url' => 'http://up-light-studio.ch',
+                'image' => 'ads/uls-phi2.jpg',
+            ],
         );
 
         return $this->render('iahmLiveBundle:Default:index.html.twig', array(
