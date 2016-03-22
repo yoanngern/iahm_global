@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ 'general.iahm'|trans }}{% endblock %}</title>
+
+    <meta name="description" content="{% block desc %}{{ 'general.iahm_desc'|trans }}{% endblock %}">
+
+    <meta name="viewport"
+          content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
+
+    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
+
+    {% block stylesheet %}
+
+    {% endblock %}
+
+    {% block javascript %}
+        <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
+    {% endblock %}
+
+    <script type="application/javascript">
+
+    </script>
+
+
+</head>
+<body>
+
+<header>
+
+    {% spaceless %}
+
+        <nav>
+
+            <ul id="desktop">
+                <li id="logo_simple"><a href="/"></a></li>
+                <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                <li id="events"><a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="http://laguerison.org/live">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a></li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a></li>
+                <li id="partner"><a href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a></li>
+                <li id="burger"><a href="#"></a></li>
+            </ul>
+
+            <ul id="mobile">
+                <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                <li id="events"><a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="http://laguerison.org/live">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a></li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a></li>
+                <li id="partner"><a href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a></li>
+            </ul>
+        </nav>
+
+    {% endspaceless %}
+</header>
+
+{% block body %}{% endblock %}
+
+<footer>
+
+    <div class="footer">
+        {% if app.request.locale == "fr" %}
+        <a id="logo_aimg" target="_blank" href="http://www.laguerison.org"></a>
+        {% else %}
+            <a id="logo_iahm" target="_blank" href="http://www.healing-ministries.org"></a>
+        {% endif %}
+    </div>
+
+</footer>
+
+</body>
+</html>

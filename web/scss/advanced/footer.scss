@@ -1,0 +1,36 @@
+footer {
+    width: 100%;
+    background-color: $white;
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    height: auto;
+    position: relative;
+
+    .footer {
+        border-top: 1px solid $gray5;
+        text-align: center;
+        padding-top: 20px;
+        max-width: 960px;
+        margin: 0 auto 0;
+        display: block;
+    }
+
+    #logo_aimg,
+    #logo_iahm {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 240px;
+        height: 90px;
+        display: inline-block;
+    }
+
+    #logo_aimg {
+        background-image: url('../images/logo_aimg.png');
+    }
+
+    #logo_iahm {
+        background-image: url('../images/logo_iahm.png');
+    }
+}

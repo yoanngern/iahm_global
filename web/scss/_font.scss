@@ -1,6 +1,3 @@
-
-
-
 @font-face {
     font-family: 'titilliumblack';
     src: url('../fonts/titillium-black-webfont.eot');
@@ -217,7 +214,6 @@
     url('../fonts/2F483F_0_0.ttf') format('truetype');
 }
 
-
 @font-face {
     font-family: 'CaeciliaLTPro-75Bold';
     src: url('../fonts/2F483F_1_0.eot');
@@ -225,6 +221,33 @@
     url('../fonts/2F483F_1_0.woff2') format('woff2'),
     url('../fonts/2F483F_1_0.woff') format('woff'),
     url('../fonts/2F483F_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaPT-Book';
+    src: url('../fonts/309DFA_0_0.eot');
+    src: url('../fonts/309DFA_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/309DFA_0_0.woff2') format('woff2'),
+    url('../fonts/309DFA_0_0.woff') format('woff'),
+    url('../fonts/309DFA_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaPT-BookObl';
+    src: url('../fonts/309DFA_1_0.eot');
+    src: url('../fonts/309DFA_1_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/309DFA_1_0.woff2') format('woff2'),
+    url('../fonts/309DFA_1_0.woff') format('woff'),
+    url('../fonts/309DFA_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaPT-Heavy';
+    src: url('../fonts/309DFA_2_0.eot');
+    src: url('../fonts/309DFA_2_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/309DFA_2_0.woff2') format('woff2'),
+    url('../fonts/309DFA_2_0.woff') format('woff'),
+    url('../fonts/309DFA_2_0.ttf') format('truetype');
 }
 
 /** regular **/
@@ -249,3 +272,7 @@ $font-light-u: "titilliumlight_upright", $font-u;
 $font-thin-u: "titilliumthin_upright", $font-light-u;
 $font-semi-bold-u: "titilliumsemibold_upright", $font-u;
 $font-bold-u: "titilliumbold_upright", $font-semi-bold-u;
+
+$futura: "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif;
+$futura-bold: "FuturaPT-Heavy", $futura;
+$futura-i: "FuturaPT-BookObl", $futura;

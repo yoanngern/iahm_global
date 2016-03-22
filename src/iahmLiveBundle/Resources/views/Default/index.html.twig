@@ -1,81 +1,151 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <title>{{ video.title }}</title>
+{% extends "::layout.html.twig" %}
 
-    <meta name="description" content="{{ video.desc }}">
 
-    <meta name="viewport"
-          content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
+{% if app.request.locale == "fr" %}
+    {% set pres = event.presentation.fr %}
+    {% set speaker_pres = event.speaker.presentation.fr %}
+{% else %}
+    {% set pres = event.presentation.en %}
+    {% set speaker_pres = event.speaker.presentation.en %}
+{% endif %}
 
-    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
 
+{% block title %}{{ 'general.iahm'|trans }} LIVE - {{ pres.title }}{% endblock %}
+{% block desc %}{{ event.date|localizeddate('none', 'none', null, null, 'EEEE d MMMM Y') }}{% endblock %}
+
+{% block stylesheet %}
     <link rel="stylesheet" href="{{ asset('css/iahm_live.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="{{ path('iahm_live_homepage') }}" class="banner" style="background-image: url('{{ asset('images/live/banner-bg-corpo.jpg') }}')"></a>
 
 
-</head>
-<body>
+    <a href="{{ path('iahm_live_homepage') }}" class="logo_live"></a>
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="video">
+
+                    {% if "now"|date('YmdHis')  < event.live.start_streaming|date('YmdHis') %}
+
+                        <div class="countdown"
+                             style="background-image: url('{{ asset('images/live/' ~ event.image ~ '_' ~ app.request.locale ~'.jpg') }}')">
+
+                            {% set difference = date(event.date).diff(date("now")) %}
+                            {% set leftDays = difference.days %}
+                            {% if leftDays == 1 %}
+                            {% if app.request.locale == "fr" %}
+                                <span>LIVE dans 1 jour</span>
+                            {% else %}
+                                <span>LIVE in 1 day</span>
+                            {% endif %}
+                            {% else %}
+                                {% if app.request.locale == "fr" %}
+                                    <span>LIVE dans {{ leftDays }} jours</span>
+                                {% else %}
+                                    <span>LIVE in {{ leftDays }} days</span>
+                                {% endif %}
+
+                            {% endif %}
+
+                        </div>
+
+                    {% else %}
+
+                        <iframe width="100%" height="100%"
+                                src="https://www.youtube.com/embed/{{ event.live.youtube_id }}?rel=0&amp;showinfo=0"
+                                frameborder="0" allowfullscreen></iframe>
+
+                    {% endif %}
+
+                </article>
+
+                <article class="pubs">
+
+                    <h1>{{ 'live.next'|trans }}</h1>
 
 
-<section class="content">
+                    {% for event in next %}
+                        <div class="pub">
+                            <div class="item">
+                                <a title="{{ event.title }}"
+                                   href="{{ path('iahm_live_event', {'id': event.id}) }}"
+                                   style="background-image: url('{{ asset('images/live/' ~ event.image ~ '_' ~ app.request.locale ~'.jpg') }}')">
+                                </a>
 
-    {% spaceless %}
+                            </div>
+                            <span class="date">{{ event.date|localizeddate('none', 'none', null, null, 'EEEE d MMMM Y') }}</span>
 
-        <header>
-            <a href="/" class="image" style="background-image: url('{{ asset('images/' ~ video.header_img) }}')"></a>
-        </header>
-
-        <article class="video">
-
-            <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/{{ video.youtube_id }}?rel=0&amp;showinfo=0"
-                    frameborder="0" allowfullscreen></iframe>
-
-        </article>
-
-        <article class="pubs">
+                        </div>
+                    {% endfor %}
+                </article>
 
 
-            {% for ad in ads %}
-                <div class="pub">
-                    <div class="item">
-                        <a target="_blank"
-                           title="{{ ad.title }}"
-                           href="{{ ad.url }}"
-                           style="background-image: url('{{ asset('images/' ~ ad.image) }}')">
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
-        </article>
+                <article class="desc" data-type="{{ event.type }}">
+
+                    <section class="left">
+                        <header>
+                            <h1>{{ pres.title }}</h1>
+                            <p>{{ event.date|localizeddate('none', 'none', null, null, 'EEEE d MMMM Y') }}</p>
+                        </header>
+
+                        <p>{{ pres.intro }}</p>
+
+                        <section class="speaker">
+                            <h2>{{ 'general.speaker'|trans }}: {{ event.speaker.name }} ({{ event.speaker.country }})</h2>
+
+                            <div class="picture">
+                                <img src="{{ asset('images/speakers/' ~ event.speaker.image) }}" alt="">
+                            </div>
+                            <div class="bio">
+                                <p>{{ speaker_pres.bio }}</p>
+
+                                <p><a target="_blank"
+                                      href="{{ event.speaker.website.url }}">{{ event.speaker.website.label }}</a></p>
+                            </div>
+                        </section>
+                    </section>
+
+
+                    <section class="right">
+                        {{ pres.more|raw  }}
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
 
         <article class="more">
-            {% for ad in sub_ads %}
-                <div class="pub">
-                    <div class="item">
-                        <a target="_blank"
-                           title="{{ ad.title }}"
-                           href="{{ ad.url }}"
-                           style="background-image: url('{{ asset('images/' ~ ad.image) }}')">
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
+
+            <div class="content">
+                {% spaceless %}
+                    {% for ad in sub_ads %}
+                        <div class="pub">
+                            <div class="item">
+                                <a target="_blank"
+                                   title="{{ ad.title }}"
+                                   href="{{ ad.url }}"
+                                   style="background-image: url('{{ asset('images/' ~ ad.image) }}')">
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endspaceless %}
+            </div>
         </article>
 
-        <footer>
-
-            <a id="logo_aimg" target="_blank" href="http://www.laguerison.org"></a>
-
-        </footer>
-
-    {% endspaceless %}
-
-</section>
+    </div>
 
 
-</body>
-</html>
+
+{% endblock %}

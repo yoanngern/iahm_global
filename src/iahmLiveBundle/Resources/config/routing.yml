@@ -1,3 +1,7 @@
 iahm_live_homepage:
     path:     /
     defaults: { _controller: iahmLiveBundle:Default:index }
+
+iahm_live_event:
+    path:     /event/{id}
+    defaults: { _controller: iahmLiveBundle:Default:event }
