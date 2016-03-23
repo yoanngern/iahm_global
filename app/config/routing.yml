@@ -4,4 +4,4 @@ iahm_page_home_default:
 
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
-    prefix: /live/
+    options: { i18n_prefix: live }

@@ -33,13 +33,9 @@ framework:
     http_method_override: true
 
 jms_i18n_routing:
-    default_locale: fr
+    default_locale: en
     locales: [fr, en]
-    strategy: custom
-    hosts:
-        fr: healing-ministries.fr
-        en: healing-ministries.org
-    redirect_to_host: true
+    strategy: prefix_except_default
 
 # Twig Configuration
 twig:
