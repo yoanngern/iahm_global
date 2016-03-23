@@ -5,6 +5,3 @@
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
     options: { i18n_prefix: live }
-
-iahm_live_2:
-    resource: "@iahmLiveBundle/Resources/config/routing.yml"
