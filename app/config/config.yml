@@ -35,7 +35,7 @@ framework:
 jms_i18n_routing:
     default_locale: en
     locales: [fr, en]
-    strategy: prefix_except_default
+    strategy: prefix
 
 # Twig Configuration
 twig:

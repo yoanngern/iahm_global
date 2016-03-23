@@ -1,6 +1,12 @@
 iahm_live_homepage:
     path:     /
     defaults: { _controller: iahmLiveBundle:Default:index }
+#    options: { i18n: false }
+
+iahm_live_homepage_2:
+    path:     /live
+    defaults: { _controller: iahmLiveBundle:Default:index }
+    options: { i18n: false }
 
 iahm_live_event:
     path:     /event/{id}

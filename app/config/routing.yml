@@ -1,7 +1,8 @@
-iahm_page_home_default:
-    path:     /
-    defaults: { _controller: iahmLiveBundle:Default:index }
+#iahm_page_home_default:
+#    path:     /
+#    defaults: { _controller: iahmLiveBundle:Default:index }
 
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
     options: { i18n_prefix: live }
+
