@@ -19,7 +19,8 @@
 
 {% block body %}
 
-    <a href="{{ path('iahm_live_homepage') }}" class="banner" style="background-image: url('{{ asset('images/live/banner-bg-corpo.jpg') }}')"></a>
+    <a href="{{ path('iahm_live_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/live/banner-bg-corpo.jpg') }}')"></a>
 
 
     <a href="{{ path('iahm_live_homepage') }}" class="logo_live"></a>
@@ -40,11 +41,11 @@
                             {% set difference = date(event.date).diff(date("now")) %}
                             {% set leftDays = difference.days %}
                             {% if leftDays == 1 %}
-                            {% if app.request.locale == "fr" %}
-                                <span>LIVE dans 1 jour</span>
-                            {% else %}
-                                <span>LIVE in 1 day</span>
-                            {% endif %}
+                                {% if app.request.locale == "fr" %}
+                                    <span>LIVE dans 1 jour</span>
+                                {% else %}
+                                    <span>LIVE in 1 day</span>
+                                {% endif %}
                             {% else %}
                                 {% if app.request.locale == "fr" %}
                                     <span>LIVE dans {{ leftDays }} jours</span>
@@ -98,7 +99,8 @@
                         <p>{{ pres.intro }}</p>
 
                         <section class="speaker">
-                            <h2>{{ 'general.speaker'|trans }}: {{ event.speaker.name }} ({{ event.speaker.country }})</h2>
+                            <h2>{{ 'general.speaker'|trans }}: {{ event.speaker.name }} ({{ event.speaker.country }}
+                                )</h2>
 
                             <div class="picture">
                                 <img src="{{ asset('images/speakers/' ~ event.speaker.image) }}" alt="">
@@ -114,7 +116,7 @@
 
 
                     <section class="right">
-                        {{ pres.more|raw  }}
+                        {{ pres.more|raw }}
                     </section>
 
                 </article>

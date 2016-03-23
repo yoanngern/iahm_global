@@ -33,9 +33,13 @@ framework:
     http_method_override: true
 
 jms_i18n_routing:
-    default_locale: en
-    locales: [en, fr]
-    strategy: prefix
+    default_locale: fr
+    locales: [fr, en]
+    strategy: custom
+    hosts:
+        fr: laguerison.org
+        en: healing-ministries.org
+    redirect_to_host: true
 
 # Twig Configuration
 twig:
