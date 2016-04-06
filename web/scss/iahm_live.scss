@@ -11,9 +11,11 @@ html, body {
     font-family: $futura;
     font-size: 18px;
     transform-style: preserve-3d;
-    background-color: $white;
+    background-color: red;
     -webkit-font-smoothing: antialiased;
     overflow: inherit;
+    background: -webkit-linear-gradient(#fff, #F7F7F7);
+    background: linear-gradient(#fff, #F7F7F7);
 }
 
 .banner {
@@ -42,7 +44,6 @@ a.logo_live {
 }
 
 div.container {
-    //background-color: $white;
     padding-top: 25px;
 }
 
@@ -84,6 +85,24 @@ section.content {
                 display: block;
                 line-height: 540px;
                 text-shadow: 2px 2px 6px $black;
+            }
+        }
+
+        &[data-live="off"] {
+            iframe {
+                display: none;
+            }
+        }
+
+        &[data-live="on"] {
+
+            div.countdown {
+                display: none;
+            }
+
+
+            iframe {
+                display: block;
             }
         }
     }
@@ -250,7 +269,7 @@ article.more {
     display: block;
     width: 100%;
     margin-top: 15px;
-    background-color: $gray-light;
+    background-color: $white;
     padding-top: 30px;
     padding-bottom: 15px;
 
@@ -280,6 +299,9 @@ article.more {
 
     section.content {
         max-width: 960px;
+
+        margin-bottom: 0;
+        padding-bottom: 85px;
 
         header {
             margin: 0 auto 20px;
@@ -333,6 +355,9 @@ article.more {
     }
 
     article.more {
+        margin-top: 0;
+        //padding-top: 45px;
+
         div.content {
             max-width: 960px;
 
@@ -343,6 +368,29 @@ article.more {
 
             div.pub:nth-of-type(3n+3) {
                 margin-right: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    footer {
+        div.content {
+            nav.sitemap {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    footer {
+        div.content {
+            div.info {
+                div.address,
+                ul.phone {
+                    display: none;
+                }
             }
         }
     }
@@ -475,6 +523,24 @@ article.more {
             }
         }
     }
+
+     footer {
+         div.content {
+             div.info {
+                 div.logo {
+                     width: 100%;
+                 }
+
+                 ul.languages {
+                     display: block;
+                     float: none;
+                     text-align: center;
+                     width: 100%;
+                     margin-top: 30px;
+                 }
+             }
+         }
+     }
 }
 
 @media only screen and (max-width: 760px) {
