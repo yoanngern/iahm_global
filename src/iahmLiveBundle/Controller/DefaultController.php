@@ -9,7 +9,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
 
-        return$this->eventAction(1);
+        return$this->eventAction(2);
 
 
     }
