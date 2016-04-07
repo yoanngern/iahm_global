@@ -225,7 +225,8 @@ class DefaultController extends Controller
 
         if($id == 2) {
             $event = $event2;
-            $next = $next1;
+            //$next = $next1;
+            $next = null;
         }
 
         return $this->render('iahmLiveBundle:Default:index.html.twig', array(
