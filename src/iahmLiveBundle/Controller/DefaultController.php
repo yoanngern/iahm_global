@@ -184,8 +184,8 @@ class DefaultController extends Controller
                 'image' => 'ads/presence-ad-streaming.jpg',
             ],
             [
-                'title' => 'Livre du mois',
-                'url' => 'http://www.gospel-diffusion.com/index.php/livres/vallotton_kris_la_guerre_des_pensees_3164.html',
+                'title' => 'CD du mois',
+                'url' => 'http://www.gospel-diffusion.com/index.php/musique/bethel_music_have_it_all_2cd_3184.html',
                 'image' => 'ads/gd-livre-du-mois-pub.jpg',
             ],
             [
