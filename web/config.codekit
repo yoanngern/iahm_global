@@ -201,6 +201,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/live\/2016.05.14_PerryMark_en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380497,
+		"inputAbbreviatedPath": "\/images\/live\/2016.05.14_PerryMark_en.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.05.14_PerryMark_en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/live\/2016.05.14_PerryMark_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 388102,
+		"inputAbbreviatedPath": "\/images\/live\/2016.05.14_PerryMark_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.05.14_PerryMark_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/live\/banner-bg-corpo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -296,6 +318,17 @@
 		"initialSize": 471790,
 		"inputAbbreviatedPath": "\/images\/speakers\/FitzgeraldBen.png",
 		"outputAbbreviatedPath": "\/images\/speakers\/FitzgeraldBen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/PerryMark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291151,
+		"inputAbbreviatedPath": "\/images\/speakers\/PerryMark.png",
+		"outputAbbreviatedPath": "\/images\/speakers\/PerryMark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -9,7 +9,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
 
-        return$this->eventAction(2);
+        return$this->eventAction(3);
 
 
     }
@@ -159,6 +159,77 @@ class DefaultController extends Controller
             ),
         );
 
+        $event3 = array(
+            'type' => 'mg',
+            'presentation' => array(
+                'en' => array(
+                    'title' => 'Miracles and Healings night',
+                    'intro' => 'Our desire is to transmit the Gospel of Jesus Christ in a way that is accessible with a demonstration of God\'s power through signs, miracles and wonders!',
+                    'more' => '<h2>Attend this event</h2>
+                        <p>Free entrance (free participation to an offering)</p>
+
+                        <h3>Address:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville<br/>
+                            Switzerland</p>
+
+                        <h3>Train SBB:</h3>
+                        <p>Châtillens Stop. (10 minutes by foot)<br/>
+                            <a target="_blank" href="http://www.sbb.ch/en/home.html">www.sbb.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Desk IAHM<br/>
+                            <a target="_blank" href="mailto:info@healing-ministries.org">info@healing-ministries.org</a><br/>
+                            +41 21 907 44 44 (2pm to 5:30pm)</p>',
+                ),
+                'fr' => array(
+                    'title' => 'Soirée Miracles et Guérisons',
+                    'intro' => 'Nous désirons transmettre l’Evangile de Jésus-Christ d’une manière accessible avec une démonstration de la puissance de Dieu au travers de signes, miracles et prodiges.',
+                    'more' => '<h2>Se rendre à la soirée</h2>
+                        <p>Entrée libre (participation libre à l’offrande)</p>
+
+                        <h3>Adresse:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville</p>
+
+                        <h3>Gare CFF:</h3>
+                        <p>Arrêt Châtillens. (10 minutes à pied)<br/>
+                            <a target="_blank" href="http://www.cff.ch">www.cff.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Bureau AIMG<br/>
+                            <a target="_blank" href="mailto:info@laguerison.org">info@laguerison.org</a><br/>
+                            +41 21 907 44 44 (14h à 17h30)</p>',
+                ),
+            ),
+            'date' => '2016-05-14 19:30:00',
+            'live' => array(
+                'start_streaming' => '2016-05-14 19:00:00',
+                'youtube_id' => '-3_Cy7D3IcM',
+            ),
+
+            'image' => '2016.05.14_PerryMark',
+            'speaker' => array(
+                'name' => 'Mark Perry',
+                'country' => 'US',
+                'presentation' => array(
+                    'en' => array(
+                        'bio' => 'Mark and his wife, Cheryl, have planted churches and started businesses and ministries. Mark ministers on the Central Coast of California and travels to nations. He is currently the senior leader at Everyday, an innovative church on the Central Coast of California. He is also the founder and director of Iris Central Coast, an international missions base, and Iris Leaders School, where revivalists are trained from all over the world. Mark is an amazing pastor and apostolic leader, radically changing lives daily!',
+                    ),
+                    'fr' => array(
+                        'bio' => 'Mark et son épouse, Cheryl, ont implanté plusieurs églises et démarré des entreprises et des ministères. Mark sert Dieu en Californie et voyage parmi les nations. Il est actuellement le responsable principal de « Everyday Church », une église innovante sur la côte californienne. Il est également le fondateur et directeur de « Iris Central Coast » (une base missionnaire internationale) et de l’école pour les leaders de « Iris » où des revivalistes du monde entier viennent se former. Mark est un excellent pasteur et responsable apostolique qui impacte des vies de manière radicale chaque jour.',
+                    ),
+                ),
+                'image' => 'PerryMark.png',
+                'website' => array(
+                    'url' => 'http://www.everydayperrys.com',
+                    'label' => 'everydayperrys.com'
+                ),
+            ),
+        );
+
         $next1 = array(
             [
                 'id' => 1,
@@ -215,7 +286,7 @@ class DefaultController extends Controller
             ],
         );
 
-        $event = $event1;
+        $event = $event3;
         $next = $next2;
 
         if($id == 1) {
@@ -225,6 +296,12 @@ class DefaultController extends Controller
 
         if($id == 2) {
             $event = $event2;
+            //$next = $next1;
+            $next = null;
+        }
+
+        if($id == 3) {
+            $event = $event3;
             //$next = $next1;
             $next = null;
         }

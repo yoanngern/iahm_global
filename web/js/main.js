@@ -30,13 +30,13 @@ $(document).ready(function () {
 
         if (event.offset.days > 1) {
 
-            $value += event.strftime('%-d ');
+            $value += event.strftime('%-D ');
             $value += $days;
 
 
         } else if (event.offset.days == 1) {
 
-            $value += event.strftime('%-d ');
+            $value += event.strftime('%-D ');
             $value += $day;
 
         } else if (event.offset.hours >= 1) {
