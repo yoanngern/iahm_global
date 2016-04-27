@@ -4,6 +4,7 @@
 @import "font";
 @import "advanced/header";
 @import "advanced/footer";
+@import "advanced/content";
 
 html, body {
 
@@ -14,8 +15,8 @@ html, body {
     background-color: red;
     -webkit-font-smoothing: antialiased;
     overflow: inherit;
-    background: -webkit-linear-gradient(#fff, #F7F7F7);
-    background: linear-gradient(#fff, #F7F7F7);
+    background: -webkit-linear-gradient(#F9F9F9, #F6F6F6);
+    background: linear-gradient(#F9F9F9, #F6F6F6);
 }
 
 .banner {
@@ -47,172 +48,7 @@ div.container {
     padding-top: 25px;
 }
 
-section.content {
-    margin: 0 auto;
-    max-width: 1320px;
-    background-color: $white;
-    padding-top: 15px;
-    padding-bottom: 15px;
 
-    margin-bottom: 70px;
-
-    article.video {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 15px;
-        margin-right: 15px;
-        max-width: 960px;
-        width: 100%;
-
-        iframe {
-            margin: 0 auto;
-            display: block;
-            width: 960px;
-            height: 540px;
-        }
-
-        div.countdown {
-            background-size: cover;
-            width: 960px;
-            height: 540px;
-            display: block;
-
-            span {
-                color: $white;
-                font-size: 2.5em;
-                width: 100%;
-                text-align: center;
-                display: block;
-                line-height: 540px;
-                text-shadow: 2px 2px 6px $black;
-            }
-        }
-
-        &[data-live="off"] {
-            iframe {
-                display: none;
-            }
-        }
-
-        &[data-live="on"] {
-
-            div.countdown {
-                display: none;
-            }
-
-
-            iframe {
-                display: block;
-            }
-        }
-    }
-
-    article.desc {
-        margin-top: 15px;
-
-        &[data-type='honnor'] {
-            p a {
-                color: $honnor;
-                text-decoration: underline;
-            }
-
-            header {
-                color: $honnor;
-                border-left-color: $honnor;
-            }
-        }
-
-        p {
-            padding-bottom: 10px;
-            max-width: 790px;
-
-            a {
-                color: $pink;
-                text-decoration: none;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-
-        h2 {
-            font-family: $futura-bold;
-            font-size: 1.25em;
-            padding-bottom: 10px;
-        }
-
-        h3 {
-            font-size: 1.35em;
-            padding-top: 10px;
-        }
-
-        section.left {
-            display: inline-block;
-            width: 960px;
-            padding-right: 15px;
-            padding-left: 15px;
-            vertical-align: top;
-        }
-
-        header {
-            color: $pink;
-            border-left: 4px solid $pink;
-            padding-left: 7px;
-            margin-bottom: 15px;
-
-            h1 {
-                font-family: $futura-bold;
-                font-size: 1.35em;
-            }
-
-            p {
-                text-transform: uppercase;
-                padding: 0;
-            }
-        }
-
-        section.speaker {
-            margin-top: 40px;
-            max-width: 790px;
-
-            div.picture {
-                display: inline-block;
-                width: 215px;
-                vertical-align: top;
-                margin-top: 20px;
-
-                img {
-                    display: block;
-                    width: 200px;
-                }
-            }
-
-            div.bio {
-                display: inline-block;
-                margin-left: 15px;
-                vertical-align: top;
-                margin-top: 20px;
-                width: 560px;
-
-                p {
-                    max-width: inherit;
-                    width: 100%;
-                }
-            }
-        }
-
-        section.right {
-            display: inline-block;
-            vertical-align: top;
-            width: 300px;
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-    }
-
-}
 
 article.pubs,
 article.more {

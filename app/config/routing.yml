@@ -1,3 +1,5 @@
+
+
 #iahm_page_home_default:
 #    path:     /
 #    defaults: { _controller: iahmLiveBundle:Default:index }
@@ -5,3 +7,19 @@
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
     options: { i18n_prefix: live }
+
+iahm_event:
+    resource: "@iahmEventBundle/Resources/config/routing.yml"
+    options: { i18n_prefix: events }
+
+iahm_event_privilege:
+    resource: "@iahmEventBundle/Resources/config/routing.yml"
+    options: { i18n_prefix: privilege }
+
+iahm_event_privilege:
+    resource: "@iahmEventBundle/Resources/config/routing.yml"
+    options: { i18n_prefix: amsterdam }
+
+iahm_event_privilege:
+    resource: "@iahmEventBundle/Resources/config/routing.yml"
+    options: { i18n_prefix: institut }
