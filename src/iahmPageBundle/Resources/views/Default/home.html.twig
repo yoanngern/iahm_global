@@ -1,0 +1,105 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }} - {{ 'general.iahm_desc'|trans }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_default.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="{{ path('iahm_page_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+
+
+    <a href="{{ path('iahm_page_homepage') }}" class="logo_live header_title"
+       style="background-image: url('{{ asset('images/page/header_title.png') }}')"></a>
+
+    <div class="container">
+
+        <section class="content">
+
+
+
+
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <h2>Who are we ?</h2>
+
+                        <p>We are an international association uniting people called to work to promote healing
+                            ministries. The IAHM organisation offers encouragement, a sense of responsibility,
+                            accountability and a strategy that we desperately need to grow healing in the Church
+                            today.</p>
+
+                        <h2>Our vision</h2>
+
+                        <p>Our desire is to see a greater manifestation of healing anointing and supernatural be
+                            imparted in every ministry and community. More and more, the river of the presence of God
+                            grows and we see a new outpouring of the Holy Spirit emerge, showing itself through signs,
+                            wonders, healings and miracles. We notice that things we had been longing for are happening
+                            now: lames are walking, blinds receive their sight, cancerous and AIDS sufferers are healed!
+                            We believe that we are going to see a wider release of these manifestations as we unite all
+                            of those who are already moving with healing anointing.</p>
+
+                        <h2>Our mission</h2>
+
+                        <p><em>Bringing the message of the Gospel</em> along with signs to the end of the earth and see
+                            a great harvest to the end of times.
+                            Uniting healing ministries through an international network in order to support one another
+                            and offer a greater visibility and credibility.
+                            <em>Restoring</em> and developing healing ministry in every christian community in a
+                            standard of biblical ethics with different tools.</p>
+
+
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+    <article class="more">
+
+        <div class="content">
+            {% spaceless %}
+                <div class="pub">
+                    <div class="item">
+                        <a title="Amsterdam 2017"
+                           href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                           style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Institut de Guérison"
+                           href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                           style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Journée privilège"
+                           href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                           style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+            {% endspaceless %}
+        </div>
+    </article>
+
+
+{% endblock %}

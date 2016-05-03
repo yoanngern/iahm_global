@@ -1,0 +1,4 @@
+services:
+#    iahm_event.example:
+#        class: iahmEventBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

@@ -10,3 +10,40 @@ nav:
     shop: Shop
     donations: Donations
     partner: Become a partner
+    activities: Activities
+    miracles_healings_nights: Miracles and Healings nights
+    healing_rooms: Healing Rooms
+    healing_institute: Healing Institute
+    prayer_line: Prayer Line
+    prayer_request: Prayer Request
+    events: Events
+    iahm_conferences: IAHM Conferences
+    jlt_itinerary: Jean-Luc Trachsel’s itinerary
+    resources: Resources
+    know_jesus: To Know Jesus
+    our_videos: Our videos
+    teachings: Teachings
+    testimonies: Testimonies
+    how_to_keep_healing: How To Keep Healing
+    join_us: Join us
+    iahm_partner: IAHM Partner
+    intercessor: Intercessor
+    volunteer: Volunteer
+    about_iahm: About IAHM
+    who_we_are: Who are we?
+    our_vision: Our vision
+    statement_of_faith: Statement of Faith
+    make_donation: Make a donation
+    contact_us: Contact us
+    follow_iahm: Follow IAHM
+form:
+    submit: Submit
+    email: Email
+    firstname: Firstname
+    lastname: Lastname
+    address: Postal address
+    zip: Postal code
+    city: City
+    country: Country
+    phone: Phone
+    register: Register

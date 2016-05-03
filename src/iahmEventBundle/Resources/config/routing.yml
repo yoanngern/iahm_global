@@ -1,0 +1,4 @@
+iahm_events_event:
+    path:     /{id}
+    defaults: { _controller: iahmEventBundle:Default:index }
+    options: { i18n: false }

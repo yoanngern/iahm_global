@@ -52,5 +52,28 @@ $(document).ready(function () {
         $('.countdown_txt', this).html($value);
     });
 
+    /*
+    $('#form_privilege').submit(function(event) {
+        event.preventDefault();
+
+        var formEl = $(this);
+        var submitButton = $('button[type=submit]', formEl);
+
+        $.ajax({
+            type: 'POST',
+            url: formEl.prop('action'),
+            accept: {
+                javascript: 'application/javascript'
+            },
+            data: formEl.serialize(),
+            beforeSend: function() {
+                submitButton.prop('disabled', 'disabled');
+            }
+        }).done(function(data) {
+            submitButton.prop('disabled', false);
+        });
+    });
+
+*/
 
 });

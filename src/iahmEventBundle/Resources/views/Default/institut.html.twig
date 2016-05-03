@@ -1,0 +1,167 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }} - Journée Privilège{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_live.css') }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ asset('css/iahm_event.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="{{ path('iahm_live_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/event/'~ event_id ~'/header_bg.jpg') }}')"></a>
+
+
+    <a href="{{ path('iahm_live_homepage') }}" class="header_title"
+       style="background-image: url('{{ asset('images/event/'~ event_id ~'/header_title.png') }}')"></a>
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc" data-type="institut">
+
+                    <section class="left">
+                        <header>
+                            <h1>Institut de Guérison 2016-2017</h1>
+                            <p>Oron, Suisse</p>
+                        </header>
+
+                        <p>Ce séminaire est une formation au sujet de la guérison divine. De nombreux in- tervenants
+                            locaux et internationaux, qui ont chacun une sensibilité et un appel di érents, enseignent
+                            dans le respect et l’équilibre fondés sur la parole de Dieu. Le but de l’institut est
+                            d’encourager les chrétiens à prier pour les malades, à annoncer la bonne nouvelle de
+                            Jésus-Christ et à libérer les captifs.</p>
+
+
+                        <h2>9 samedis</h2>
+                        <ul>
+                            <li>15 octobre 2016</li>
+                            <li>12 novembre 2016</li>
+                            <li>10 décembre 2016</li>
+                            <li>21 janvier 2017</li>
+                            <li>11 février 2017</li>
+                            <li>11 mars 2017</li>
+                            <li>8 avril 2017</li>
+                            <li>13 mai 2017</li>
+                            <li>17 juin 2017</li>
+                        </ul>
+
+                        <h2>Intervenants</h2>
+                        <p>Diverses personnes aux ministères internationaux ou régionaux ointes du St-Esprit.</p>
+                        <p>Les séminaires sont créés sur un fon- dement biblique avec une révélation personnelle de
+                            chaque enseignant, ainsi qu’une application pratique des sujets enseignés.</p>
+                        <ul>
+                            <li>Peter Wenz</li>
+                            <li>Chuck Parry</li>
+                            <li>Joaquin Evans</li>
+                            <li>Jean-Michel Tour</li>
+                            <li>Carlos Payan</li>
+                            <li>Stacey Campbell</li>
+                            <li>Bruno Picard</li>
+                            <li>Philipp Schmerold</li>
+                            <li>Randy Clark</li>
+                            <li>Daniel Salameh</li>
+                            <li>Jean-Claude Chabloz</li>
+                            <li>Ernest Geiser</li>
+                            <li>Thierry Juvet</li>
+                            <li>Paul Hemes</li>
+                            <li>Pierre Bader</li>
+                            <li>Werner Lehmann</li>
+                            <li>Nicolas Lehmann</li>
+                            <li>Claire-Lise Cherpillod</li>
+                            <li>Jean-Luc Trachsel</li>
+                            <li>Jérémie Bader</li>
+                            <li>et d’autres</li>
+                        </ul>
+
+                        <h2>Pré-inscription à l'institut</h2>
+
+                        <p>Suite à votre pré-inscription, vous recevrez un e-mail avec les informations pour vous
+                            inscrire.</p>
+
+                        <div class="_form_150"></div>
+                        <script src="http://news.laguerison.org/f/embed.php?id=150" type="text/javascript"
+                                charset="utf-8"></script>
+
+                    </section>
+
+
+                    <section class="right">
+                        <h2>Infos pratiques</h2>
+
+                        <h3>Horaire d'une journée:</h3>
+                        <p>8h30 - 9h: Accueil<br/>
+                            9h - 12h50: Temps de louange et enseignements<br/>
+                            12h50 - 14h25: Pause de midi<br/>
+                            14h25 - 17h: Temps de louange et enseignements
+                            19h30: Soirée Miracles et Guérisons</p>
+
+
+                        <h3>Prix:</h3>
+                        <p>65 CHF / 60 €<br/>
+                            (prix par journée de formation)</p>
+
+                        <h3>Adresse:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville</p>
+
+                        <h3>Gare CFF:</h3>
+                        <p>Arrêt Châtillens. (10 minutes à pied)<br/>
+                            <a target="_blank" href="http://www.cff.ch">www.cff.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Bureau AIMG<br/>
+                            <a target="_blank" href="mailto:info@laguerison.org">info@laguerison.org</a><br/>
+                            +41 21 907 44 44 (14h à 17h30)</p>
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+    <article class="more">
+
+        <div class="content">
+            {% spaceless %}
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Amsterdam 2017"
+                               href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                               style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Institut de Guérison"
+                               href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                               style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Journée privilège"
+                               href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                               style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+            {% endspaceless %}
+        </div>
+    </article>
+
+
+{% endblock %}

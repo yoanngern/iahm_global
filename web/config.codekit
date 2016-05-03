@@ -40,6 +40,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/iahm_default.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/iahm_default.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/iahm_event.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -166,6 +175,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/event\/amsterdam\/header_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334851,
+		"inputAbbreviatedPath": "\/images\/event\/amsterdam\/header_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/event\/amsterdam\/header_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/amsterdam\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58775,
+		"inputAbbreviatedPath": "\/images\/event\/amsterdam\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/event\/amsterdam\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/amsterdam\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 851210,
+		"inputAbbreviatedPath": "\/images\/event\/amsterdam\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/event\/amsterdam\/thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/institut\/header_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194946,
+		"inputAbbreviatedPath": "\/images\/event\/institut\/header_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/event\/institut\/header_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/institut\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33710,
+		"inputAbbreviatedPath": "\/images\/event\/institut\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/event\/institut\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/institut\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 535715,
+		"inputAbbreviatedPath": "\/images\/event\/institut\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/event\/institut\/thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/event\/privilege\/header_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -184,6 +259,17 @@
 		"initialSize": 44346,
 		"inputAbbreviatedPath": "\/images\/event\/privilege\/header_title.png",
 		"outputAbbreviatedPath": "\/images\/event\/privilege\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/event\/privilege\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 356253,
+		"inputAbbreviatedPath": "\/images\/event\/privilege\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/event\/privilege\/thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -342,6 +428,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/page\/header_red.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130004,
+		"inputAbbreviatedPath": "\/images\/page\/header_red.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/header_red.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64306,
+		"inputAbbreviatedPath": "\/images\/page\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/page\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/speakers\/FitzgeraldBen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -494,6 +602,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/advanced\/base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/advanced\/base.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/advanced\/content.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -550,6 +674,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/iahm_default.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/iahm_default.scss",
+		"outputAbbreviatedPath": "\/css\/iahm_default.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/iahm_event.scss": {
 		"createSourceMap": 0,

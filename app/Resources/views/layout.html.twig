@@ -35,35 +35,82 @@
 
         <nav>
 
-            <ul id="desktop">
-                <li id="logo_simple"><a href="/"></a></li>
-                <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
-                <li id="events"><a
-                            href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
-                </li>
-                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
-                <li id="live"><a href="http://laguerison.org/live">{{ 'nav.live_tv'|trans }}</a></li>
-                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a></li>
-                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a></li>
-                <li id="partner"><a
-                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
-                </li>
-                <li id="burger"><a href="#"></a></li>
-            </ul>
 
-            <ul id="mobile">
-                <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
-                <li id="events"><a
-                            href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
-                </li>
-                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
-                <li id="live"><a href="http://laguerison.org/live">{{ 'nav.live_tv'|trans }}</a></li>
-                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a></li>
-                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a></li>
-                <li id="partner"><a
-                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
-                </li>
-            </ul>
+            {% if app.request.locale == "fr" %}
+                <ul id="desktop">
+                    <li id="logo_simple"><a href="http://www.laguerison.org"></a></li>
+                    <li id="iahm" class="current"><a href="http://www.laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                    <li id="events"><a
+                                href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
+                    </li>
+                    <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                    <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                    <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                    </li>
+                    <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                    </li>
+                    <li id="partner"><a
+                                href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                    </li>
+                    <li id="burger"><a href="#"></a></li>
+                </ul>
+
+                <ul id="mobile">
+                    <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                    <li id="events"><a
+                                href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
+                    </li>
+                    <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                    <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                    <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                    </li>
+                    <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                    </li>
+                    <li id="partner"><a
+                                href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                    </li>
+                </ul>
+            {% else %}
+                <ul id="desktop">
+                    <li id="logo_simple"><a href="{{ path('iahm_page_homepage') }}"></a></li>
+                    <li id="iahm" class="current"><a href="{{ path('iahm_page_homepage') }}">{{ 'nav.iahm'|trans }}</a>
+                    </li>
+                    <li id="events"><a
+                                href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.events'|trans }}</a>
+                    </li>
+                    <li id="resources"><a href="http://www.laguerison.org/medias"
+                                          target="_blank">{{ 'nav.resources'|trans }}</a></li>
+                    <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                    <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                    </li>
+                    <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                    </li>
+                    <li id="partner"><a
+                                href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                    </li>
+                    <li id="burger"><a href="#"></a></li>
+                </ul>
+
+                <ul id="mobile">
+                    <li id="iahm" class="current"><a href="{{ path('iahm_page_homepage') }}">{{ 'nav.iahm'|trans }}</a>
+                    </li>
+                    <li id="events"><a
+                                href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.events'|trans }}</a>
+                    </li>
+                    <li id="resources"><a href="http://www.laguerison.org/medias"
+                                          target="_blank">{{ 'nav.resources'|trans }}</a></li>
+                    <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                    <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                    </li>
+                    <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                    </li>
+                    <li id="partner"><a
+                                href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                    </li>
+                </ul>
+            {% endif %}
+
+
         </nav>
 
     {% endspaceless %}
@@ -77,79 +124,213 @@
         <div class="content">
 
             <nav class="sitemap">
-                <ul class="activities">
-                    <h1>Activités</h1>
-                    <li><a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">Soirées Miracles et Guérisons</a></li>
-                    <li><a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">Espaces guérison</a></li>
-                    <li><a href="http://www.laguerison.org/activites/instituts-de-guerison/presentation">Institut de guérison</a></li>
-                    <li><a href="http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone">Ligne de prière</a></li>
-                    <li><a href="http://www.laguerison.org/activites/ligne-de-priere/demande-de-priere">Demande de prière</a></li>
-                </ul>
-                <ul class="events">
-                    <h1>Événements</h1>
-                    <li><a href="http://www.laguerison.org/soirees-miracles-guerisons">Soirées Miracles et Guérisons</a></li>
-                    <li><a href="http://www.laguerison.org/soirees-miracles-guerisons/itemlist/category/19-conférences">Conférences AIMG</a></li>
-                    {#<li><a href="">Événements partenaires</a></li>#}
-                    <li><a href="https://www.facebook.com/JLTministries/events/">Itinéraire de Jean-Luc Trachsel</a></li>
-                </ul>
-                <ul class="resources">
-                    <h1>Ressources</h1>
-                    <li><a href="http://www.laguerison.org/presentation/connaitre-jesus/comment-devenir-un-chretien">Connaître Jésus</a></li>
-                    <li><a href="http://www.laguerison.org/medias/nos-videos">Nos vidéos</a></li>
-                    <li><a href="http://www.laguerison.org/medias/enseignements">Enseignements</a></li>
-                    <li><a href="http://www.laguerison.org/medias/temoignages">Témoignages</a></li>
-                    <li><a href="http://www.laguerison.org/presentation/garder-sa-guerison">Garder sa guérison</a></li>
-                </ul>
-                <ul class="join_us">
-                    <h1>Rejoignez-nous</h1>
-                    <li><a href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">Partenaire AIMG</a></li>
-                    <li><a href="http://www.laguerison.org/etre-partenaire/intercesseur">Intercesseur</a></li>
-                    <li><a href="http://www.laguerison.org/etre-partenaire/benevole">Bénévole</a></li>
-                    {#<li><a href="">Équipier de prière</a></li>#}
-                    {#<li><a href="">Organiser des soirées</a></li>#}
-                </ul>
-                <ul class="about">
-                    <h1>A propos de l’AIMG</h1>
-                    <li><a href="http://www.laguerison.org/presentation/qui-sommes-nous">Qui sommes-nous ?</a></li>
-                    <li><a href="http://www.laguerison.org/presentation/vision">Notre vision</a></li>
-                    <li><a href="http://www.laguerison.org/presentation/confession-de-foi">Confession de foi</a></li>
-                    <li><a href="http://www.laguerison.org/faire-un-don">Faire un don</a></li>
-                    <li><a href="http://www.laguerison.org/contact">Contactez-nous</a></li>
-                </ul>
-                <ul class="social">
-                    <h1>Suivre l’AIMG</h1>
-                    {#<li><a href="">Newsletters</a></li>#}
-                    <li><a href="https://www.facebook.com/iahm.international/">Facebook</a></li>
-                    <li><a href="https://twitter.com/aimg_iahm">Twitter</a></li>
-                </ul>
+                {% if app.request.locale == "fr" %}
+                    <ul class="activities">
+                        <h1>{{ 'nav.activities'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">{{ 'nav.miracles_healings_nights'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">{{ 'nav.healing_rooms'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/instituts-de-guerison/presentation">{{ 'nav.healing_institute'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/ligne-de-priere/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="events">
+                        <h1>{{ 'nav.events'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/soirees-miracles-guerisons">{{ 'nav.miracles_healings_nights'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/soirees-miracles-guerisons/itemlist/category/19-conférences">{{ 'nav.iahm_conferences'|trans }}</a>
+                        </li>
+                        {#<li><a href="">Événements partenaires</a></li>#}
+                        <li><a href="https://www.facebook.com/JLTministries/events/"
+                               target="_blank">{{ 'nav.jlt_itinerary'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="resources">
+                        <h1>{{ 'nav.resources'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/connaitre-jesus/comment-devenir-un-chretien">{{ 'nav.know_jesus'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/medias/nos-videos">{{ 'nav.our_videos'|trans }}</a></li>
+                        <li><a href="http://www.laguerison.org/medias/enseignements">{{ 'nav.teachings'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/medias/temoignages">{{ 'nav.testimonies'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/garder-sa-guerison">{{ 'nav.how_to_keep_healing'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="join_us">
+                        <h1>{{ 'nav.join_us'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.iahm_partner'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/etre-partenaire/intercesseur">{{ 'nav.intercessor'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/etre-partenaire/benevole">{{ 'nav.volunteer'|trans }}</a>
+                        </li>
+                        {#<li><a href="">Équipier de prière</a></li>#}
+                        {#<li><a href="">Organiser des soirées</a></li>#}
+                    </ul>
+                    <ul class="about">
+                        <h1>{{ 'nav.about_iahm'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/qui-sommes-nous">{{ 'nav.who_we_are'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/presentation/vision">{{ 'nav.our_vision'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/confession-de-foi">{{ 'nav.statement_of_faith'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.make_donation'|trans }}</a></li>
+                        <li><a href="http://www.laguerison.org/contact">{{ 'nav.contact_us'|trans }}</a></li>
+                    </ul>
+                    <ul class="social">
+                        <h1>{{ 'nav.follow_iahm'|trans }}</h1>
+                        {#<li><a href="">Newsletters</a></li>#}
+                        <li><a href="https://www.facebook.com/iahm.international/">Facebook</a></li>
+                        <li><a href="https://twitter.com/aimg_iahm">Twitter</a></li>
+                    </ul>
+                {% else %}
+                    <ul class="activities">
+                        <h1>{{ 'nav.activities'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">{{ 'nav.miracles_healings_nights'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">{{ 'nav.healing_rooms'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.healing_institute'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/activites/ligne-de-priere/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="events">
+                        <h1>{{ 'nav.events'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/soirees-miracles-guerisons">{{ 'nav.miracles_healings_nights'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/soirees-miracles-guerisons/itemlist/category/19-conférences">{{ 'nav.iahm_conferences'|trans }}</a>
+                        </li>
+                        {#<li><a href="">Événements partenaires</a></li>#}
+                        <li><a href="https://www.facebook.com/JLTministries/events/"
+                               target="_blank">{{ 'nav.jlt_itinerary'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="resources">
+                        <h1>{{ 'nav.resources'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/connaitre-jesus/comment-devenir-un-chretien">{{ 'nav.know_jesus'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/medias/nos-videos">{{ 'nav.our_videos'|trans }}</a></li>
+                        <li><a href="http://www.laguerison.org/medias/enseignements">{{ 'nav.teachings'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/medias/temoignages">{{ 'nav.testimonies'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/garder-sa-guerison">{{ 'nav.how_to_keep_healing'|trans }}</a>
+                        </li>
+                    </ul>
+                    <ul class="join_us">
+                        <h1>{{ 'nav.join_us'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.iahm_partner'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/etre-partenaire/intercesseur">{{ 'nav.intercessor'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/etre-partenaire/benevole">{{ 'nav.volunteer'|trans }}</a>
+                        </li>
+                        {#<li><a href="">Équipier de prière</a></li>#}
+                        {#<li><a href="">Organiser des soirées</a></li>#}
+                    </ul>
+                    <ul class="about">
+                        <h1>{{ 'nav.about_iahm'|trans }}</h1>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/qui-sommes-nous">{{ 'nav.who_we_are'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/presentation/vision">{{ 'nav.our_vision'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="http://www.laguerison.org/presentation/confession-de-foi">{{ 'nav.statement_of_faith'|trans }}</a>
+                        </li>
+                        <li><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.make_donation'|trans }}</a></li>
+                        <li><a href="http://www.laguerison.org/contact">{{ 'nav.contact_us'|trans }}</a></li>
+                    </ul>
+                    <ul class="social">
+                        <h1>{{ 'nav.follow_iahm'|trans }}</h1>
+                        {#<li><a href="">Newsletters</a></li>#}
+                        <li><a href="https://www.facebook.com/iahm.international/">Facebook</a></li>
+                        <li><a href="https://twitter.com/aimg_iahm">Twitter</a></li>
+                    </ul>
+                {% endif %}
             </nav>
 
             <div class="info">
-                <div class="logo">
-                    {% if app.request.locale == "fr" %}
+                {% if app.request.locale == "fr" %}
+                    <div class="logo">
                         <a id="logo_aimg" target="_blank" href="http://www.laguerison.org"></a>
-                    {% else %}
-                        <a id="logo_iahm" target="_blank" href="http://www.healing-ministries.org"></a>
-                    {% endif %}
-                </div>
+                    </div>
 
-                <div class="address">
-                    <h1>AIMG</h1>
-                    <p>Route du Flon 28<br/>
-                        1610 Oron-La-Ville<br/>
-                        Suisse</p>
-                </div>
-                <ul class="phone">
-                    <h1>Téléphone</h1>
-                    <li><a href="">+41 (0) 21 907 44 44</a></li>
-                    <p>Heures téléphone :<br/>
-                        lu-ve de 14h à 17h30</p>
-                </ul>
-                <ul class="languages">
-                    <h1>Changer de langue</h1>
-                    <li><a href="{{ path("iahm_live_homepage", {"_locale": "fr"}) }}">Français</a></li>
-                    <li><a href="{{ path("iahm_live_homepage", {"_locale": "en"}) }}">English</a></li>
-                </ul>
+                    <div class="address">
+                        <h1>AIMG</h1>
+                        <p>Route du Flon 28<br/>
+                            1610 Oron-La-Ville<br/>
+                            Suisse</p>
+                    </div>
+                    <ul class="phone">
+                        <h1>Téléphone</h1>
+                        <li><a href="">+41 (0) 21 907 44 44</a></li>
+                        <p>Heures téléphone :<br/>
+                            lu-ve de 14h à 17h30</p>
+                    </ul>
+                    <ul class="languages">
+                        <h1>Changer de langue</h1>
+                        <li><a href="http://laguerison.org">Français</a></li>
+                        <li><a href="{{ path("iahm_page_homepage", {"_locale": "en"}) }}">English</a></li>
+                    </ul>
+
+                {% else %}
+                    <div class="logo">
+                        <a id="logo_iahm" target="_blank" href="http://www.healing-ministries.org"></a>
+                    </div>
+
+                    <div class="address">
+                        <h1>IAHM</h1>
+                        <p>Route du Flon 28<br/>
+                            1610 Oron-La-Ville<br/>
+                            Switzerland</p>
+                    </div>
+                    <ul class="phone">
+                        <h1>Phone</h1>
+                        <li><a href="">+41 (0) 21 907 44 44</a></li>
+                        <p>Phone schedules :<br/>
+                            Mo-Fr from 2pm to 5:30pm</p>
+                    </ul>
+                    <ul class="languages">
+                        <h1>Change language</h1>
+                        <li><a href="http://laguerison.org">Français</a></li>
+                        <li><a href="{{ path("iahm_page_homepage", {"_locale": "en"}) }}">English</a></li>
+                    </ul>
+
+                {% endif %}
             </div>
 
 

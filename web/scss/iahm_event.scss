@@ -4,23 +4,13 @@
 @import "font";
 @import "advanced/header";
 @import "advanced/footer";
+@import "advanced/content";
+@import "advanced/base";
 
-a.header_title {
-
-    margin-top: 140px;
-    margin-bottom: 50px;
-    height: 180px;
-}
 
 section.content {
 
     article.desc {
-        padding-bottom: 30px;
-
-        section.left {
-            padding-left: 30px;
-            width: 930px;
-        }
 
         &[data-type='privilege'] {
             p a {
@@ -31,6 +21,30 @@ section.content {
             header {
                 color: $privilege;
                 border-left-color: $privilege;
+            }
+        }
+
+        &[data-type='institut'] {
+            p a {
+                color: $institut;
+                text-decoration: underline;
+            }
+
+            header {
+                color: $institut;
+                border-left-color: $institut;
+            }
+        }
+
+        &[data-type='amsterdam'] {
+            p a {
+                color: $amsterdam;
+                text-decoration: underline;
+            }
+
+            header {
+                color: $amsterdam;
+                border-left-color: $amsterdam;
             }
         }
     }

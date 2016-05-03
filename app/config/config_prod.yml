@@ -6,10 +6,10 @@ framework:
 #        cache: validator.mapping.cache.doctrine.apc
 #    serializer:
 #        cache: serializer.mapping.cache.doctrine.apc
-    assets:
-        base_urls:
-            - 'http://healing-ministries.org/live/'
-
+#    assets:
+#        base_urls:
+#            - 'http://healing-ministries.org/live/'
+#
 #doctrine:
 #    orm:
 #        metadata_cache_driver: apc

@@ -1,0 +1,197 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }} - Journée Privilège{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_event.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="{{ path('iahm_live_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/event/privilege/header_bg.jpg') }}')"></a>
+
+
+    <a href="{{ path('iahm_live_homepage') }}" class="header_title"
+       style="background-image: url('{{ asset('images/event/privilege/header_title.png') }}')"></a>
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc" data-type="privilege">
+
+                    <section class="left">
+                        <header>
+                            <h1>Journée Privilège</h1>
+                            <p>Samedi 10 septembre 2016</p>
+                        </header>
+
+                        <p>Un rendez-vous pour tous nos partenaires impliqués dans les comités locaux, Espaces guérison,
+                            Ligne de prière par téléphone, Equipiers de prière, soirées Miracles et Guérisons,
+                            «Partenaires AIMG», intercesseurs, directeurs nationaux, ministères partenaires, et toutes
+                            personnes ayant à coeur la bonne nouvelle du royaume et la guérison!</p>
+
+
+                        <section class="speaker">
+                            <h2>{{ 'general.speaker'|trans }}: Chris Gore (USA)</h2>
+
+                            <div class="picture">
+                                <img src="{{ asset('images/speakers/GoreChris.png') }}" alt="">
+                            </div>
+                            <div class="bio">
+                                <p>Chris et Liz Gore ont une passion pour voir les malades guéris, ainsi que pour les
+                                    chrétiens marchant dans la puissance et l’amour de Jésus. Ils désirent voir le
+                                    réveil se propager et l’Evangile du Royaume prêché dans toutes les nations. Chris
+                                    est devenu pasteur et superviseur des ministères de guérison à l’Eglise Bethel à
+                                    Redding en Californie. Ils continuent à voir le don de guérison se manifester
+                                    au-travers de leur ministère !</p>
+
+                                <p><a target="_blank"
+                                      href="http://www.kingdomreleasers.org">kingdomreleasers.org</a></p>
+                            </div>
+                        </section>
+
+                        <h2>Intervenants</h2>
+                        <ul>
+                            <li>Jean-Luc Trachsel (CH)</li>
+                            <li>Werner Lehmann (CH)</li>
+                            <li>Claire-Lise Cherpillod (CH)</li>
+                            <li>Jean-Claude Buis (FR)</li>
+                            <li>Yves Payen (FR)</li>
+                            <li>...</li>
+                        </ul>
+
+                        <h2>Au programme</h2>
+                        <ul>
+                            <li>Enseignements dynamiques avec temps de louange</li>
+                            <li>Témoignages</li>
+                            <li>Rapports des diverses activités de l'AIMG</li>
+                            <li>Ateliers spécifiques pour membres des comités locaux ainsi que pour les ministères
+                                partenaires
+                            </li>
+                            <li>Présentation des différentes équipes</li>
+                            <li>Temps de ministères et envoi dans les projets de Dieu pour cette nouvelle saison</li>
+                            <li>Temps prophétique</li>
+                        </ul>
+
+                        <h2>Pré-inscription à la journée</h2>
+
+                        <p>Suite à votre pré-inscription, vous recevrez un e-mail avec les informations pour vous
+                            inscrire.</p>
+
+                        <div class="_form_152"></div><script src="http://news.laguerison.org/f/embed.php?id=152" type="text/javascript" charset="utf-8"></script>
+
+                        {#
+                        <form id="form_privilege" class="simple" accept-charset="UTF-8" action="https://formkeep.com/f/e717aade09b8"
+                              method="POST">
+                            <h3>Infos de base</h3>
+                            <fieldset>
+                                <input type="hidden" name="utf8" value="✓">
+                                <input type="text" name="firstname" placeholder="{{ 'form.firstname'|trans }}" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="lastname" placeholder="{{ 'form.lastname'|trans }}" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="phone" placeholder="{{ 'form.phone'|trans }}">
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="mobile_phone" placeholder="{{ 'form.mobile_phone'|trans }}">
+                            </fieldset>
+                            <fieldset>
+                                <input type="email" name="email" placeholder="{{ 'form.email'|trans }}" required>
+                            </fieldset>
+                            <h3>Adresse</h3>
+                            <fieldset>
+                                <input type="text" name="address" placeholder="{{ 'form.address'|trans }}" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="zip" placeholder="{{ 'form.zip'|trans }}" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="city" placeholder="{{ 'form.city'|trans }}" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" name="country" placeholder="{{ 'form.country'|trans }}" required>
+                            </fieldset>
+
+                            <button type="submit">{{ 'form.register'|trans }}</button>
+                        </form>
+                        #}
+
+                    </section>
+
+
+                    <section class="right">
+                        <h2>Infos pratiques</h2>
+
+                        <h3>Horaires:</h3>
+                        <p>8h30: Accueil<br/>
+                            9h - 17h: Sessions d'enseignement</p>
+
+                        <h3>Prix:</h3>
+                        <p>65 CHF / 60 €</p>
+
+                        <h3>Adresse:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville</p>
+
+                        <h3>Gare CFF:</h3>
+                        <p>Arrêt Châtillens. (10 minutes à pied)<br/>
+                            <a target="_blank" href="http://www.cff.ch">www.cff.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Bureau AIMG<br/>
+                            <a target="_blank" href="mailto:info@laguerison.org">info@laguerison.org</a><br/>
+                            +41 21 907 44 44 (14h à 17h30)</p>
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+    <article class="more">
+
+        <div class="content">
+            {% spaceless %}
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Amsterdam 2017"
+                               href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                               style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Institut de Guérison"
+                               href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                               style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Journée privilège"
+                               href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                               style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+            {% endspaceless %}
+        </div>
+    </article>
+
+
+{% endblock %}

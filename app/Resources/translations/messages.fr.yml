@@ -10,3 +10,41 @@ nav:
     shop: Shop
     donations: Dons
     partner: Devenir partenaire
+    activities: Activités
+    miracles_healings_nights: Soirées Miracles et Guérisons
+    healing_rooms: Espaces guérison
+    healing_institute: Institut de guérison
+    prayer_line: Ligne de prière
+    prayer_request: Demande de prière
+    events: Événements
+    iahm_conferences: Conférences AIMG
+    jlt_itinerary: Itinéraire de Jean-Luc Trachsel
+    resources: Ressources
+    know_jesus: Connaître Jésus
+    our_videos: Nos vidéos
+    teachings: Enseignements
+    testimonies: Témoignages
+    how_to_keep_healing: Garder sa guérison
+    join_us: Rejoignez-nous
+    iahm_partner: Partenaire AIMG
+    intercessor: Intercesseur
+    volunteer: Bénévole
+    about_iahm: A propos de l’AIMG
+    who_we_are: Qui sommes-nous ?
+    our_vision: Notre vision
+    statement_of_faith: Confession de foi
+    make_donation: Faire un don
+    contact_us: Contactez-nous
+    follow_iahm: Suivre l’AIMG
+form:
+    submit: Envoyer
+    email: Adresse e-mail
+    firstname: Prénom
+    lastname: Nom
+    address: Adresse postale
+    zip: Code postal
+    city: Ville
+    country: Pays
+    phone: Téléphone
+    mobile_phone: Mobile
+    register: S'inscrire

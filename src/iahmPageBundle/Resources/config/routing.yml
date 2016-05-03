@@ -1,0 +1,11 @@
+iahm_page_homepage:
+    path:     /
+    defaults: { _controller: iahmPageBundle:Default:index }
+
+iahm_page_donations:
+    path:     /donations
+    defaults: { _controller: iahmPageBundle:Default:donations }
+
+iahm_page_thanks:
+    path:     /thanks
+    defaults: { _controller: iahmPageBundle:Default:thanks }

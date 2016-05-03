@@ -1,0 +1,86 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }} - Amsterdam 2017{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_event.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}" class="banner"
+       style="background-image: url('{{ asset('images/event/amsterdam/header_bg.jpg') }}')"></a>
+
+
+    <a href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}" class="header_title"
+       style="background-image: url('{{ asset('images/event/amsterdam/header_title.png') }}')"></a>
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc" data-type="amsterdam">
+
+                    <section class="left">
+                        <header>
+                            <h1>Conférence Internationale de Guérison</h1>
+                            <p>24 - 27 mai 2017</p>
+                        </header>
+
+                        <p>Plus d'infos à venir.</p>
+
+
+                        <h2>Soyez le premier à être informé</h2>
+                        <div class="_form_154"></div>
+                        <script src="http://news.laguerison.org/f/embed.php?id=154" type="text/javascript"
+                                charset="utf-8"></script>
+
+
+                    </section>
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+    <article class="more">
+
+        <div class="content">
+            {% spaceless %}
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Amsterdam 2017"
+                               href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                               style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Institut de Guérison"
+                               href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                               style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div class="item">
+                            <a title="Journée privilège"
+                               href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                               style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                            </a>
+                        </div>
+                    </div>
+            {% endspaceless %}
+        </div>
+    </article>
+
+
+{% endblock %}

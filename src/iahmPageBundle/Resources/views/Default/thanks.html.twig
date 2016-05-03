@@ -1,0 +1,48 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_default.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block body %}
+
+    <a href="#" class="banner"
+       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+
+
+    <div class="header_title">
+    <h1><span>Thank you</span></h1>
+    </div>
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <h2>Thank you</h2>
+
+                        <p>We have received your submission.</p>
+
+
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+
+{% endblock %}
