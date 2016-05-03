@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="margin title">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/translations/messages.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/translations/messages.fr.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/base.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/base.scssc" />
+    <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/amsterdam.html.twig" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/amsterdam.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/privilege.html.twig" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/privilege.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmLiveBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/iahmLiveBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_default.css" afterPath="$PROJECT_DIR$/web/css/iahm_default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_event.css" afterPath="$PROJECT_DIR$/web/css/iahm_event.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_live.css" afterPath="$PROJECT_DIR$/web/css/iahm_live.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/advanced/base.scss" afterPath="$PROJECT_DIR$/web/scss/advanced/base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml" />
     </list>
     <ignored path="iahm_global.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privilege.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privilege.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/privilege.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60402685">
-              <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+            <state vertical-scroll-proportion="-25.625">
+              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.021978023">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -149,7 +148,6 @@
         <option value="$PROJECT_DIR$/web/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/web/scss/iahm_live.scss" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/donations.html.twig" />
-        <option value="$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/web/scss/iahm_event.scss" />
         <option value="$PROJECT_DIR$/web/scss/_color.scss" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/thanks.html.twig" />
@@ -169,6 +167,7 @@
         <option value="$PROJECT_DIR$/web/scss/advanced/base.scss" />
         <option value="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/amsterdam.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/privilege.html.twig" />
+        <option value="$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml" />
       </list>
     </option>
   </component>
@@ -526,6 +525,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -940,7 +943,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462294427390</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add title for next events">
+      <created>1462296214269</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1462296214269</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1005,7 +1014,8 @@
     <MESSAGE value="add event 3" />
     <MESSAGE value="add privilege" />
     <MESSAGE value="margin title" />
-    <option name="LAST_COMMIT_MESSAGE" value="margin title" />
+    <MESSAGE value="add title for next events" />
+    <option name="LAST_COMMIT_MESSAGE" value="add title for next events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,14 +1323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032967035">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.541666">
@@ -1391,8 +1393,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/privilege.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60402685">
-          <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+        <state vertical-scroll-proportion="-25.625">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021978023">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>
