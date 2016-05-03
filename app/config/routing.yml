@@ -1,22 +1,8 @@
-iahm_home:
+iahm_page:
     resource: "@iahmPageBundle/Resources/config/routing.yml"
 
 iahm_live:
     resource: "@iahmLiveBundle/Resources/config/routing.yml"
-    options: { i18n_prefix: live }
 
 iahm_event:
     resource: "@iahmEventBundle/Resources/config/routing.yml"
-    options: { i18n_prefix: events }
-
-iahm_event_privilege:
-    resource: "@iahmEventBundle/Resources/config/routing.yml"
-    options: { i18n_prefix: privilege }
-
-iahm_event_amsterdam:
-    resource: "@iahmEventBundle/Resources/config/routing.yml"
-    options: { i18n_prefix: amsterdam }
-
-iahm_event_institut:
-    resource: "@iahmEventBundle/Resources/config/routing.yml"
-    options: { i18n_prefix: institut }

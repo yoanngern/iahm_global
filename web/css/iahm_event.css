@@ -540,6 +540,12 @@ form.simple {
 article.pubs,
 article.more {
   vertical-align: top; }
+  article.pubs h1,
+  article.more h1 {
+    font-family: "FuturaPT-Heavy", "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin-left: 15px; }
   article.pubs div.pub,
   article.more div.pub {
     width: 300px;
@@ -637,6 +643,8 @@ article.more {
     margin-top: 0; }
     article.more div.content {
       max-width: 960px; }
+      article.more div.content h1 {
+        margin-left: 0; }
       article.more div.content div.pub:nth-of-type(3n+1) {
         margin-left: 0; }
       article.more div.content div.pub:nth-of-type(3n+3) {
@@ -676,6 +684,9 @@ article.more {
   section.content article.desc section.left {
     width: 100%; }
 
+  article.pubs div.content h1,
+  article.more div.content h1 {
+    margin-left: 2.5%; }
   article.pubs div.content div.pub,
   article.more div.content div.pub {
     width: 30%;
@@ -712,6 +723,9 @@ article.more {
       width: 100%;
       max-width: 580px; } }
 @media only screen and (max-width: 768px) {
+  article.pubs div.content h1,
+  article.more div.content h1 {
+    margin-left: 1.5%; }
   article.pubs div.content div.pub,
   article.more div.content div.pub {
     width: 47%;
@@ -748,6 +762,9 @@ article.more {
   section.content article.video div.countdown span {
     font-size: 2em; }
 
+  article.pubs div.content h1,
+  article.more div.content h1 {
+    margin-left: 3%; }
   article.pubs div.content div.pub,
   article.more div.content div.pub {
     width: 94%;

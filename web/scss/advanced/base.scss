@@ -111,6 +111,13 @@ article.pubs,
 article.more {
     vertical-align: top;
 
+    h1 {
+        font-family: $futura-bold;
+        padding-bottom: 10px;
+        font-size: 1.2em;
+        margin-left: 15px;
+    }
+
     div.pub {
         width: 300px;
         display: block;
@@ -228,6 +235,7 @@ article.more {
             width: 100%;
             margin-top: 0;
 
+
             div.pub {
                 margin: 20px 15px 0 15px;
                 display: inline-block;
@@ -251,8 +259,13 @@ article.more {
         margin-top: 0;
         //padding-top: 45px;
 
+
         div.content {
             max-width: 960px;
+
+            h1 {
+                margin-left: 0;
+            }
 
             div.pub:nth-of-type(3n+1) {
                 margin-left: 0;
@@ -344,6 +357,10 @@ article.more {
 
         div.content {
 
+            h1 {
+                margin-left: 2.5%;
+            }
+
             div.pub {
                 width: 30%;
                 margin: 20px 1.25% 0 1.25%;
@@ -407,6 +424,10 @@ article.more {
     article.more {
 
         div.content {
+
+            h1 {
+                margin-left: 1.5%;
+            }
 
             div.pub {
                 width: 47%;
@@ -479,6 +500,11 @@ article.more {
     article.more {
 
         div.content {
+
+            h1 {
+                margin-left: 3%;
+            }
+
             div.pub {
                 width: 94%;
                 margin: 20px 3% 0 3%;
