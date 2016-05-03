@@ -741,8 +741,8 @@ article.more {
     height: 49px; }
 
   a.header_title {
-    margin-top: 55px;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
     height: 100px; } }
 @media only screen and (max-width: 540px) {
   section.content article.video div.countdown span {

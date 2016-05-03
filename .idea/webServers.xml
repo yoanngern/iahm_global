@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d5cce40e-fafc-4901-bf82-ceff374432f0" name="healing-ministries.org" url="http://ftp.healing-ministries.org">
-        <fileTransfer host="ftp.healing-ministries.org" port="21" rootFolder="/httpdocs/live" password="df9fdfc4df98dfdadfffdfd8df89df93dff5df9bdf99dfebdf81df8edfcfdfe5df9a" username="hm-admin">
+        <fileTransfer host="ftp.healing-ministries.org" port="21" rootFolder="/httpdocs" password="df9fdfc4df98dfdadfffdfd8df89df93dff5df9bdf99dfebdf81df8edfcfdfe5df9a" username="hm-admin">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
