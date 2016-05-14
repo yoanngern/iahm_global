@@ -4,7 +4,6 @@
     <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.codekit" afterPath="$PROJECT_DIR$/web/config.codekit" />
     </list>
     <ignored path="iahm_global.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,27 +28,27 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6756152">
-              <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.61625284">
+              <caret line="263" column="70" selection-start-line="263" selection-start-column="70" selection-end-line="263" selection-end-column="70" />
               <folding>
-                <marker date="1463224673000" expanded="true" signature="874:1057" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="1130:1276" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="1347:1552" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="2065:2203" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="2275:2408" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="2479:2668" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="4883:5066" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="5139:5285" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="5356:5561" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="6091:6229" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="6301:6434" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="6505:6694" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="9758:9941" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="10014:10160" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="10231:10436" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="10966:11104" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="11176:11309" placeholder="..." />
-                <marker date="1463224673000" expanded="true" signature="11380:11569" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="874:1057" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="1130:1276" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="1347:1552" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="2065:2203" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="2275:2408" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="2479:2668" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="4883:5066" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="5139:5285" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="5356:5561" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="6091:6229" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="6301:6434" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="6505:6694" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="9758:9941" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="10014:10160" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="10231:10436" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="10966:11104" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="11176:11309" placeholder="..." />
+                <marker date="1463224814000" expanded="true" signature="11380:11569" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -978,7 +977,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463215127091</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update ads">
+      <created>1463224693844</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1463224693844</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -988,18 +993,18 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25078124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5022951" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32663316" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32663316" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1029,7 +1034,6 @@
     <MESSAGE value="routing" />
     <MESSAGE value="assets" />
     <MESSAGE value="change asset path" />
-    <MESSAGE value="update ads" />
     <MESSAGE value="change image for partenaire" />
     <MESSAGE value="add Up Light As" />
     <MESSAGE value="big update" />
@@ -1046,7 +1050,8 @@
     <MESSAGE value="add title for next events" />
     <MESSAGE value="update events routing" />
     <MESSAGE value="update youtube id" />
-    <option name="LAST_COMMIT_MESSAGE" value="update youtube id" />
+    <MESSAGE value="update ads" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ads" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1409,27 +1414,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6756152">
-          <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.61625284">
+          <caret line="263" column="70" selection-start-line="263" selection-start-column="70" selection-end-line="263" selection-end-column="70" />
           <folding>
-            <marker date="1463224673000" expanded="true" signature="874:1057" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="1130:1276" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="1347:1552" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="2065:2203" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="2275:2408" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="2479:2668" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="4883:5066" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="5139:5285" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="5356:5561" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="6091:6229" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="6301:6434" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="6505:6694" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="9758:9941" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="10014:10160" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="10231:10436" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="10966:11104" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="11176:11309" placeholder="..." />
-            <marker date="1463224673000" expanded="true" signature="11380:11569" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="874:1057" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="1130:1276" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="1347:1552" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="2065:2203" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="2275:2408" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="2479:2668" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="4883:5066" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="5139:5285" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="5356:5561" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="6091:6229" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="6301:6434" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="6505:6694" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="9758:9941" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="10014:10160" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="10231:10436" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="10966:11104" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="11176:11309" placeholder="..." />
+            <marker date="1463224814000" expanded="true" signature="11380:11569" placeholder="..." />
           </folding>
         </state>
       </provider>

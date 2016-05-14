@@ -251,17 +251,17 @@ class DefaultController extends Controller
         $sub_ads = array(
             [
                 'title' => 'Journée Privilège',
-                'url' => '/privilege',
+                'url' => 'http://healing-ministries.org/fr/privilege',
                 'image' => 'ads/privilege.jpg',
             ],
             [
                 'title' => 'Institut de Guérison 2016-2017',
-                'url' => '/institut',
+                'url' => 'http://healing-ministries.org/fr/institut',
                 'image' => 'ads/institut.jpg',
             ],
             [
                 'title' => 'Amsterdam 2017',
-                'url' => '/amsterdam',
+                'url' => 'http://healing-ministries.org/fr/amsterdam',
                 'image' => 'ads/amsterdam.jpg',
             ],
             [
