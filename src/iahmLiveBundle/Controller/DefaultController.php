@@ -250,14 +250,24 @@ class DefaultController extends Controller
 
         $sub_ads = array(
             [
-                'title' => 'Presence 2016',
-                'url' => 'http://www.laguerison.org/conference/',
-                'image' => 'ads/presence-ad-streaming.jpg',
+                'title' => 'Journée Privilège',
+                'url' => '/privilege',
+                'image' => 'ads/privilege.jpg',
             ],
             [
-                'title' => 'CD du mois',
-                'url' => 'http://www.gospel-diffusion.com/index.php/musique/bethel_music_have_it_all_2cd_3184.html',
-                'image' => 'ads/gd-livre-du-mois-pub.jpg',
+                'title' => 'Institut de Guérison 2016-2017',
+                'url' => '/institut',
+                'image' => 'ads/institut.jpg',
+            ],
+            [
+                'title' => 'Amsterdam 2017',
+                'url' => '/amsterdam',
+                'image' => 'ads/amsterdam.jpg',
+            ],
+            [
+                'title' => 'Le premier livre de Jean-Luc Trachsel',
+                'url' => 'http://www.gospel-diffusion.com/index.php/livres/trachsel_jean_luc_dans_les_coulisses_d_un_miracle_3192.html',
+                'image' => 'ads/trachselJeanLuc_book.jpg',
             ],
             [
                 'title' => 'Soirées Miracles et Guérisons',
@@ -269,11 +279,13 @@ class DefaultController extends Controller
                 'url' => 'http://www.laguerison.org/etre-partenaire/partenaire-aimg',
                 'image' => 'ads/partenaire.jpg',
             ],
+            /*
             [
                 'title' => 'Ecrivez-nous',
                 'url' => 'mailto:contact@laguerison.org',
                 'image' => 'ads/temoignage.jpg',
             ],
+            */
             [
                 'title' => 'Appelez-nous',
                 'url' => 'http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone',

@@ -4,6 +4,7 @@
     <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.codekit" afterPath="$PROJECT_DIR$/web/config.codekit" />
     </list>
     <ignored path="iahm_global.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,41 +25,51 @@
     <favorites_list name="iahm_global" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.125">
-              <caret line="209" column="46" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6756152">
+              <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
               <folding>
-                <marker date="1463215053000" expanded="true" signature="874:1057" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="1130:1276" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="1347:1552" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="2065:2203" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="2275:2408" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="2479:2668" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="4883:5066" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="5139:5285" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="5356:5561" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="6091:6229" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="6301:6434" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="6505:6694" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="9758:9941" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="10014:10160" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="10231:10436" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="10966:11104" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="11176:11309" placeholder="..." />
-                <marker date="1463215053000" expanded="true" signature="11380:11569" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="874:1057" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="1130:1276" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="1347:1552" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="2065:2203" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="2275:2408" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="2479:2668" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="4883:5066" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="5139:5285" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="5356:5561" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="6091:6229" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="6301:6434" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="6505:6694" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="9758:9941" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="10014:10160" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="10231:10436" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="10966:11104" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="11176:11309" placeholder="..." />
+                <marker date="1463224673000" expanded="true" signature="11380:11569" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="institut.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="76" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6263982">
-              <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+            <state vertical-scroll-proportion="-26.25">
+              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -165,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -618,6 +628,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -961,7 +972,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462296438750</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update youtube id">
+      <created>1463215127091</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1463215127091</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -982,7 +999,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32663316" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32663316" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1028,7 +1045,8 @@
     <MESSAGE value="margin title" />
     <MESSAGE value="add title for next events" />
     <MESSAGE value="update events routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="update events routing" />
+    <MESSAGE value="update youtube id" />
+    <option name="LAST_COMMIT_MESSAGE" value="update youtube id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1345,13 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6196868">
-          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/translations/messages.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52747256">
@@ -1380,38 +1391,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.125">
-          <caret line="209" column="46" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
-          <folding>
-            <marker date="1463215053000" expanded="true" signature="874:1057" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="1130:1276" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="1347:1552" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="2065:2203" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="2275:2408" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="2479:2668" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="4883:5066" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="5139:5285" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="5356:5561" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="6091:6229" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="6301:6434" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="6505:6694" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="9758:9941" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="10014:10160" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="10231:10436" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="10966:11104" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="11176:11309" placeholder="..." />
-            <marker date="1463215053000" expanded="true" signature="11380:11569" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-26.25">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6263982">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6756152">
+          <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
+          <folding>
+            <marker date="1463224673000" expanded="true" signature="874:1057" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="1130:1276" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="1347:1552" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="2065:2203" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="2275:2408" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="2479:2668" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="4883:5066" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="5139:5285" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="5356:5561" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="6091:6229" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="6301:6434" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="6505:6694" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="9758:9941" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="10014:10160" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="10231:10436" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="10966:11104" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="11176:11309" placeholder="..." />
+            <marker date="1463224673000" expanded="true" signature="11380:11569" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

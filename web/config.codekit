@@ -87,6 +87,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ads\/amsterdam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312332,
+		"inputAbbreviatedPath": "\/images\/ads\/amsterdam.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/amsterdam.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ads\/gd-livre-du-mois-pub.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -94,6 +105,17 @@
 		"initialSize": 378976,
 		"inputAbbreviatedPath": "\/images\/ads\/gd-livre-du-mois-pub.jpg",
 		"outputAbbreviatedPath": "\/images\/ads\/gd-livre-du-mois-pub.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ads\/institut.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140964,
+		"inputAbbreviatedPath": "\/images\/ads\/institut.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/institut.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -131,6 +153,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ads\/privilege.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/ads\/privilege.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/privilege.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ads\/temoignage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -149,6 +182,17 @@
 		"initialSize": 110930,
 		"inputAbbreviatedPath": "\/images\/ads\/toutes-les-soirees-mg.jpg",
 		"outputAbbreviatedPath": "\/images\/ads\/toutes-les-soirees-mg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ads\/trachselJeanLuc_book.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 593519,
+		"inputAbbreviatedPath": "\/images\/ads\/trachselJeanLuc_book.jpg",
+		"outputAbbreviatedPath": "\/images\/ads\/trachselJeanLuc_book.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
