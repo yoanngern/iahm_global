@@ -207,7 +207,7 @@ class DefaultController extends Controller
             'date' => '2016-05-14 19:30:00',
             'live' => array(
                 'start_streaming' => '2016-05-14 19:00:00',
-                'youtube_id' => '-Uf_FWmlwwc',
+                'youtube_id' => 'GTgNSemS0OA',
             ),
 
             'image' => '2016.05.14_PerryMark',
