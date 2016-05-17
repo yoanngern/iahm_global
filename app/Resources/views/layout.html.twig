@@ -41,7 +41,7 @@
                     <li id="logo_simple"><a href="http://www.laguerison.org"></a></li>
                     <li id="iahm" class="current"><a href="http://www.laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
                     <li id="events"><a
-                                href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
+                                href="http://www.laguerison.org/evenements">{{ 'nav.events'|trans }}</a>
                     </li>
                     <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
                     <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
@@ -58,7 +58,7 @@
                 <ul id="mobile">
                     <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
                     <li id="events"><a
-                                href="http://www.laguerison.org/activites/evenements">{{ 'nav.events'|trans }}</a>
+                                href="http://www.laguerison.org/evenements">{{ 'nav.events'|trans }}</a>
                     </li>
                     <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
                     <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
@@ -134,13 +134,13 @@
                             <a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">{{ 'nav.healing_rooms'|trans }}</a>
                         </li>
                         <li>
-                            <a href="http://www.laguerison.org/activites/instituts-de-guerison/presentation">{{ 'nav.healing_institute'|trans }}</a>
+                            <a href="{{ path('iahm_events_event', {'id': 'institut'}) }}">{{ 'nav.healing_institute'|trans }}</a>
                         </li>
                         <li>
-                            <a href="http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
+                            <a href="http://www.laguerison.org/activites/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
                         </li>
                         <li>
-                            <a href="http://www.laguerison.org/activites/ligne-de-priere/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
+                            <a href="http://www.laguerison.org/activites/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
                         </li>
                     </ul>
                     <ul class="events">
@@ -212,13 +212,13 @@
                             <a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">{{ 'nav.healing_rooms'|trans }}</a>
                         </li>
                         <li>
-                            <a href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.healing_institute'|trans }}</a>
+                            <a href="{{ path('iahm_events_event', {'id': 'institut'}) }}">{{ 'nav.healing_institute'|trans }}</a>
                         </li>
                         <li>
-                            <a href="http://www.laguerison.org/activites/ligne-de-priere/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
+                            <a href="http://www.laguerison.org/activites/priere-par-telephone">{{ 'nav.prayer_line'|trans }}</a>
                         </li>
                         <li>
-                            <a href="http://www.laguerison.org/activites/ligne-de-priere/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
+                            <a href="http://www.laguerison.org/activites/demande-de-priere">{{ 'nav.prayer_request'|trans }}</a>
                         </li>
                     </ul>
                     <ul class="events">
