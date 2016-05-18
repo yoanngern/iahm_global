@@ -17,13 +17,19 @@
     <link rel="stylesheet" href="{{ asset('css/iahm_live.css') }}" type="text/css"/>
 {% endblock %}
 
-{% block body %}
+{% block header %}
 
     <a href="{{ path('iahm_live_homepage') }}" class="banner"
        style="background-image: url('{{ asset('images/live/banner-bg-corpo.jpg') }}')"></a>
 
 
     <a href="{{ path('iahm_live_homepage') }}" class="logo_live"></a>
+
+{% endblock %}
+
+{% block body %}
+
+
 
     <div class="container">
 

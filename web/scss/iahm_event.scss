@@ -21,6 +21,11 @@ section.content {
             header {
                 color: $privilege;
                 border-left-color: $privilege;
+
+                &.button {
+                    background-color: $privilege;
+                    color: $white;
+                }
             }
         }
 
@@ -28,6 +33,11 @@ section.content {
             p a {
                 color: $institut;
                 text-decoration: underline;
+
+                &.button {
+                    background-color: $institut;
+                    color: $white;
+                }
             }
 
             header {
@@ -40,6 +50,11 @@ section.content {
             p a {
                 color: $amsterdam;
                 text-decoration: underline;
+
+                &.button {
+                    background-color: $amsterdam;
+                    color: $white;
+                }
             }
 
             header {

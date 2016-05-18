@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ asset('css/iahm_event.css') }}" type="text/css"/>
 {% endblock %}
 
-{% block body %}
+{% block header %}
 
     <a href="{{ path('iahm_live_homepage') }}" class="banner"
        style="background-image: url('{{ asset('images/event/privilege/header_bg.jpg') }}')"></a>
@@ -14,6 +14,12 @@
 
     <a href="{{ path('iahm_live_homepage') }}" class="header_title"
        style="background-image: url('{{ asset('images/event/privilege/header_title.png') }}')"></a>
+
+{% endblock %}
+
+{% block body %}
+
+
 
     <div class="container">
 

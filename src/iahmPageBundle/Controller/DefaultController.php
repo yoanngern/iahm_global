@@ -71,4 +71,12 @@ class DefaultController extends Controller
         return $this->render('iahmPageBundle:Default:thanks.html.twig', array(
         ));
     }
+
+    public function formAction($id)
+    {
+
+        return $this->render('iahmPageBundle:Default:form.html.twig', array(
+            'form_id' => $id,
+        ));
+    }
 }

@@ -116,6 +116,25 @@
     {% endspaceless %}
 </header>
 
+
+{% block header %}
+
+    <a href="{{ path('iahm_page_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+
+    {% if app.request.locale == "fr" %}
+
+        <a href="{{ path('iahm_page_homepage') }}" class="logo_live header_title"
+           style="background-image: url('{{ asset('images/page/header_title_aimg.png') }}')"></a>
+
+    {% else %}
+
+        <a href="{{ path('iahm_page_homepage') }}" class="logo_live header_title"
+           style="background-image: url('{{ asset('images/page/header_title_iahm.png') }}')"></a>
+
+    {% endif %}
+
+{% endblock %}
 {% block body %}{% endblock %}
 
 <footer>

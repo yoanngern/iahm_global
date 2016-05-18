@@ -85,12 +85,23 @@ section.content {
                 }
             }
 
+            em {
+                font-family: $futura-bold;
+            }
+
         }
         ul {
             li {
                 padding-left: 5px;
                 margin-left: 30px;
                 padding-bottom: 10px;
+            }
+
+            &.block li {
+                display: inline-block;
+                //margin: 10px;
+                margin-left: 0;
+                width: 250px;
             }
         }
 
@@ -104,6 +115,35 @@ section.content {
         h3 {
             font-size: 1.35em;
             padding-top: 10px;
+        }
+
+        table.simple {
+            tbody {
+                tr {
+                    td {
+                        &:first-of-type {
+                            //text-align: right;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        a.button {
+            background-color: $gray3;
+            color: $white;
+            font-family: $futura-bold;
+            text-decoration: none !important;
+            padding: 8px 15px 8px 15px;
+            display: inline-block;
+            box-shadow: rgba($black, 0.5) 2px 2px 5px;
+            margin-right: 30px;
+
+            &:active,
+            &:visited {
+                color: $white;
+            }
         }
 
         section.left {

@@ -219,7 +219,7 @@ article.more {
         article.desc {
             section.left {
                 padding: 0;
-                width: inherit;
+                //width: inherit;
             }
 
             section.right {
@@ -311,12 +311,22 @@ article.more {
             padding-left: 15px;
             padding-right: 15px;
         }
+
+        article.jotform {
+            padding: 0;
+        }
+
+
     }
 }
 
 @media only screen and (max-width: 960px) {
 
     section.content {
+
+        .left {
+            width: inherit;
+        }
 
         article.video {
             //width: 100%;

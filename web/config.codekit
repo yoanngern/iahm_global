@@ -483,13 +483,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/page\/header_title.png": {
+	"\/images\/page\/header_title_aimg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69439,
+		"inputAbbreviatedPath": "\/images\/page\/header_title_aimg.png",
+		"outputAbbreviatedPath": "\/images\/page\/header_title_aimg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/header_title_iahm.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 64306,
-		"inputAbbreviatedPath": "\/images\/page\/header_title.png",
-		"outputAbbreviatedPath": "\/images\/page\/header_title.png",
+		"inputAbbreviatedPath": "\/images\/page\/header_title_iahm.png",
+		"outputAbbreviatedPath": "\/images\/page\/header_title_iahm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
