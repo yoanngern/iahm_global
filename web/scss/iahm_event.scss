@@ -16,16 +16,18 @@ section.content {
             p a {
                 color: $privilege;
                 text-decoration: underline;
+
+                &.button {
+                    background-color: $privilege;
+                    color: $white;
+                }
             }
 
             header {
                 color: $privilege;
                 border-left-color: $privilege;
 
-                &.button {
-                    background-color: $privilege;
-                    color: $white;
-                }
+
             }
         }
 

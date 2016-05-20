@@ -805,12 +805,12 @@ article.more {
 section.content article.desc[data-type='privilege'] p a {
   color: #50A4AF;
   text-decoration: underline; }
+  section.content article.desc[data-type='privilege'] p a.button {
+    background-color: #50A4AF;
+    color: #FFFFFF; }
 section.content article.desc[data-type='privilege'] header {
   color: #50A4AF;
   border-left-color: #50A4AF; }
-  section.content article.desc[data-type='privilege'] header.button {
-    background-color: #50A4AF;
-    color: #FFFFFF; }
 section.content article.desc[data-type='institut'] p a {
   color: #2d6584;
   text-decoration: underline; }
