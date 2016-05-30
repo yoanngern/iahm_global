@@ -79,4 +79,11 @@ class DefaultController extends Controller
             'form_id' => $id,
         ));
     }
+
+    public function headerNavAction()
+    {
+        
+        return $this->render('::header_nav.html.twig', array(
+        ));
+    }
 }

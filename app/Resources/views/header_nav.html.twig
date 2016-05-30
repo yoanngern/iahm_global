@@ -1,0 +1,83 @@
+{% spaceless %}
+
+    <nav>
+
+
+        {% if app.request.locale == "fr" %}
+            <ul id="desktop">
+                <li id="logo_simple"><a href="http://www.laguerison.org"></a></li>
+                <li id="iahm" class="current"><a href="http://www.laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                <li id="events"><a
+                            href="http://www.laguerison.org/evenements">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                </li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                </li>
+                <li id="partner"><a
+                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                </li>
+                <li id="burger"><a href="#"></a></li>
+            </ul>
+
+            <ul id="mobile">
+                <li id="iahm" class="current"><a href="http://laguerison.org">{{ 'nav.iahm'|trans }}</a></li>
+                <li id="events"><a
+                            href="http://www.laguerison.org/evenements">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                </li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                </li>
+                <li id="partner"><a
+                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                </li>
+            </ul>
+        {% else %}
+            <ul id="desktop">
+                <li id="logo_simple"><a href="{{ path('iahm_page_homepage') }}"></a></li>
+                <li id="iahm" class="current"><a href="{{ path('iahm_page_homepage') }}">{{ 'nav.iahm'|trans }}</a>
+                </li>
+                <li id="events"><a
+                            href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias"
+                                      target="_blank">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                </li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                </li>
+                <li id="partner"><a
+                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                </li>
+                <li id="burger"><a href="#"></a></li>
+            </ul>
+
+            <ul id="mobile">
+                <li id="iahm" class="current"><a href="{{ path('iahm_page_homepage') }}">{{ 'nav.iahm'|trans }}</a>
+                </li>
+                <li id="events"><a
+                            href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}">{{ 'nav.events'|trans }}</a>
+                </li>
+                <li id="resources"><a href="http://www.laguerison.org/medias"
+                                      target="_blank">{{ 'nav.resources'|trans }}</a></li>
+                <li id="live"><a href="{{ path('iahm_live_homepage') }}">{{ 'nav.live_tv'|trans }}</a></li>
+                <li id="shop"><a href="http://www.gospel-diffusion.com" target="_blank">{{ 'nav.shop'|trans }}</a>
+                </li>
+                <li id="donation"><a href="http://www.laguerison.org/faire-un-don">{{ 'nav.donations'|trans }}</a>
+                </li>
+                <li id="partner"><a
+                            href="http://www.laguerison.org/etre-partenaire/partenaire-aimg">{{ 'nav.partner'|trans }}</a>
+                </li>
+            </ul>
+        {% endif %}
+
+
+    </nav>
+
+{% endspaceless %}

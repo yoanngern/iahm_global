@@ -13,3 +13,7 @@ iahm_page_thanks:
 iahm_page_form:
     path:     /form/{id}
     defaults: { _controller: iahmPageBundle:Default:form }
+
+iahm_page_header_nav:
+    path:     /header_nav
+    defaults: { _controller: iahmPageBundle:Default:headerNav }
