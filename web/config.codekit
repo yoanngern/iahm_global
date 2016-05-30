@@ -384,6 +384,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/live\/2016.06.11_WagnerDavid_en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 637841,
+		"inputAbbreviatedPath": "\/images\/live\/2016.06.11_WagnerDavid_en.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.06.11_WagnerDavid_en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/live\/2016.06.11_WagnerDavid_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 678422,
+		"inputAbbreviatedPath": "\/images\/live\/2016.06.11_WagnerDavid_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.06.11_WagnerDavid_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/live\/banner-bg-corpo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -545,6 +567,17 @@
 		"initialSize": 123572,
 		"inputAbbreviatedPath": "\/images\/speakers\/SilkDanny.png",
 		"outputAbbreviatedPath": "\/images\/speakers\/SilkDanny.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/WagnerDavid.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 388989,
+		"inputAbbreviatedPath": "\/images\/speakers\/WagnerDavid.png",
+		"outputAbbreviatedPath": "\/images\/speakers\/WagnerDavid.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

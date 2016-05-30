@@ -9,7 +9,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
 
-        return$this->eventAction(3);
+        return $this->eventAction(3);
 
 
     }
@@ -230,6 +230,80 @@ class DefaultController extends Controller
             ),
         );
 
+
+        $event4 = array(
+            'type' => 'mg',
+            'presentation' => array(
+                'en' => array(
+                    'title' => 'Miracles and Healings night',
+                    'intro' => 'Our desire is to transmit the Gospel of Jesus Christ in a way that is accessible with a demonstration of God\'s power through signs, miracles and wonders!',
+                    'more' => '<h2>Attend this event</h2>
+                        <p>Free entrance (free participation to an offering)</p>
+
+                        <h3>Address:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville<br/>
+                            Switzerland</p>
+
+                        <h3>Train SBB:</h3>
+                        <p>Châtillens Stop. (10 minutes by foot)<br/>
+                            <a target="_blank" href="http://www.sbb.ch/en/home.html">www.sbb.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Desk IAHM<br/>
+                            <a target="_blank" href="mailto:info@healing-ministries.org">info@healing-ministries.org</a><br/>
+                            +41 21 907 44 44 (2pm to 5:30pm)</p>',
+                ),
+                'fr' => array(
+                    'title' => 'Soirée Miracles et Guérisons',
+                    'intro' => 'Nous désirons transmettre l’Evangile de Jésus-Christ d’une manière accessible avec une démonstration de la puissance de Dieu au travers de signes, miracles et prodiges.',
+                    'more' => '<h2>Se rendre à la soirée</h2>
+                        <p>Entrée libre (participation libre à l’offrande)</p>
+
+                        <h3>Adresse:</h3>
+                        <p>Eglise Evangélique d’Oron-la-Ville<br/>
+                            Rte du Flon 28<br/>
+                            1610 Oron-la-Ville</p>
+
+                        <h3>Gare CFF:</h3>
+                        <p>Arrêt Châtillens. (10 minutes à pied)<br/>
+                            <a target="_blank" href="http://www.cff.ch">www.cff.ch</a></p>
+
+                        <h3>Contact:</h3>
+                        <p>Bureau AIMG<br/>
+                            <a target="_blank" href="mailto:info@laguerison.org">info@laguerison.org</a><br/>
+                            +41 21 907 44 44 (14h à 17h30)</p>',
+                ),
+            ),
+            'date' => '2016-06-11 19:30:00',
+            'live' => array(
+                'start_streaming' => '2016-06-11 19:00:00',
+                'youtube_id' => 'GTgNSemS0OA',
+            ),
+
+            'image' => '2016.06.11_WagnerDavid',
+            'speaker' => array(
+                'name' => 'David Wagner',
+                'country' => 'US',
+                'presentation' => array(
+                    'en' => array(
+                        'bio' => 'David Wagner has a passion for reaching the lost, restoring the broken, and healing the hurting through the powerful Word of God and the demonstration of the Holy Spirit. David believes the church is a prophetic voice in the Earth today. He has heard the cry of the Father\'s heart to raise up spiritual sons and daughters in the church. He established Father\'s Heart Ministries in 2001 to help believers discover their identity in Christ and the destiny and purpose of God for their lives.
+Dave has ministered throughout the United States and around the world equipping believers by speaking at prophetic conferences, youth and children\'s crusades, and leadership training meetings. He has ministered in a variety of denominational settings, and has personally been a part of planting churches in the nations. Throughout his ministry, he has seen thousands experience true fredom from bondage and disease.',
+                    ),
+                    'fr' => array(
+                        'bio' => 'David Wagner a une passion pour atteindre les perdus, la restauration des personnes brisées et la guérison au travers de la puissante parole de Dieu et une démonstration du Saint-Esprit. David est convaincu que l’Eglise est une voix prophétique pour notre société. Il a entendu le cri du cœur du Père afin de lever des fils et filles spirituels dans l’Eglise. Il a créé le ministère Father’s Heart Minsitries en 2001 pour aider les croyants à découvrir leur identité en Christ leur destinée et le but de Dieu pour leurs vies.
+David a voyagé dans tous les Etats-Unis et autour du monde équipant les chrétiens par des conférences prophétiques, des rencontres pour les jeunes et les enfants et des conférences de formation de leaders. Au travers de son ministère, il a vu des milliers de personne expérimenter la vraie libération de la captivité et de la maladie.',
+                    ),
+                ),
+                'image' => 'WagnerDavid.png',
+                'website' => array(
+                    'url' => 'http://www.fathersheartministries.org',
+                    'label' => 'fathersheartministries.org'
+                ),
+            ),
+        );
+
         $next1 = array(
             [
                 'id' => 1,
@@ -245,6 +319,15 @@ class DefaultController extends Controller
                 'title' => 'Soirée Miracles et Guérisons',
                 'date' => '2016-04-09 19:30:00',
                 'image' => '2016.04.09_FitzgeraldBen',
+            ]
+        );
+
+        $next4 = array(
+            [
+                'id' => 4,
+                'title' => 'Soirée Miracles et Guérisons',
+                'date' => '2016-06-11 19:30:00',
+                'image' => '2016.06.11_WagnerDavid',
             ]
         );
 
@@ -299,21 +382,27 @@ class DefaultController extends Controller
         );
 
         $event = $event3;
-        $next = $next2;
+        $next = $next4;
 
-        if($id == 1) {
+        if ($id == 1) {
             $event = $event1;
             $next = $next2;
         }
 
-        if($id == 2) {
+        if ($id == 2) {
             $event = $event2;
             //$next = $next1;
             $next = null;
         }
 
-        if($id == 3) {
+        if ($id == 3) {
             $event = $event3;
+            //$next = $next1;
+            $next = $next4;
+        }
+
+        if ($id == 4) {
+            $event = $event4;
             //$next = $next1;
             $next = null;
         }
