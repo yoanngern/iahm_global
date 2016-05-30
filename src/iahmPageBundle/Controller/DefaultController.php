@@ -86,4 +86,11 @@ class DefaultController extends Controller
         return $this->render('::header_nav.html.twig', array(
         ));
     }
+
+    public function footerNavAction()
+    {
+
+        return $this->render('::footer_nav.html.twig', array(
+        ));
+    }
 }

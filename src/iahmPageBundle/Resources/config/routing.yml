@@ -17,3 +17,8 @@ iahm_page_form:
 iahm_page_header_nav:
     path:     /header_nav
     defaults: { _controller: iahmPageBundle:Default:headerNav }
+
+
+iahm_page_footer_nav:
+    path:     /footer_nav
+    defaults: { _controller: iahmPageBundle:Default:footerNav }
