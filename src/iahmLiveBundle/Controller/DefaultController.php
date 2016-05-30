@@ -381,8 +381,8 @@ David a voyagé dans tous les Etats-Unis et autour du monde équipant les chrét
             ],
         );
 
-        $event = $event3;
-        $next = $next4;
+        $event = $event4;
+        $next = null;
 
         if ($id == 1) {
             $event = $event1;
