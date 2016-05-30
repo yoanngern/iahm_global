@@ -97,7 +97,15 @@
                                 <td>Accueil</td>
                             </tr>
                             <tr>
-                                <td>9h00 - 17h00</td>
+                                <td>9h00 - 12h30</td>
+                                <td>Sessions d'enseignement</td>
+                            </tr>
+                            <tr>
+                                <td>12h30 - 14h00</td>
+                                <td>Repas de midi</td>
+                            </tr>
+                            <tr>
+                                <td>14h00 - 17h00</td>
                                 <td>Sessions d'enseignement</td>
                             </tr>
                             </tbody>
@@ -115,7 +123,6 @@
                                class="button">Payer par facture</a></p>
 
 
-
                     </section>
 
 
@@ -124,6 +131,14 @@
 
                         <h3>Tarifs:</h3>
                         <p>65 CHF</p>
+
+                        <h3>Repas de midi:</h3>
+
+                        <ul>
+                            <li>Nous ne servons pas de repas à midi</li>
+                            <li>Vous trouverez de la restauration chaude dans les alentours à vos frais.</li>
+                            <li>Possibilité de prendre votre pic-nic</li>
+                        </ul>
 
                         <h3>Logements:</h3>
                         <p>Pour trouver une chambre proche, vous pouvez réserver sur ces sites:</p>
@@ -156,30 +171,30 @@
         <div class="content">
             <h1>{{ 'event.next_events'|trans }}</h1>
             {% spaceless %}
-                    <div class="pub">
-                        <div class="item">
-                            <a title="Amsterdam 2017"
-                               href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
-                               style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
-                            </a>
-                        </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Amsterdam 2017"
+                           href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                           style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                        </a>
                     </div>
-                    <div class="pub">
-                        <div class="item">
-                            <a title="Institut de Guérison"
-                               href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
-                               style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
-                            </a>
-                        </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Institut de Guérison"
+                           href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                           style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                        </a>
                     </div>
-                    <div class="pub">
-                        <div class="item">
-                            <a title="Journée privilège"
-                               href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
-                               style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
-                            </a>
-                        </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Journée privilège"
+                           href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                           style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                        </a>
                     </div>
+                </div>
             {% endspaceless %}
         </div>
     </article>
