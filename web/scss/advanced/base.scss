@@ -1,7 +1,8 @@
 html, body {
-    overflow: inherit;
+    overflow: visible;
     background: -webkit-linear-gradient(#F9F9F9, #F6F6F6);
     background: linear-gradient(#F9F9F9, #F6F6F6);
+    position: relative;
 }
 
 html, body, input, textarea, button {
@@ -14,11 +15,15 @@ html, body, input, textarea, button {
 
 }
 
+div.title {
+    padding-top: 140px;
+}
+
 div.header_title {
     height: 100px;
     display: block;
     width: 100%;
-    margin: 140px auto 50px;
+    margin: 0px auto 50px;
 
     h1 {
         text-align: center;
@@ -36,8 +41,7 @@ div.header_title {
 }
 
 a.header_title {
-
-    margin-top: 140px;
+    margin-top: 0px;
     margin-bottom: 50px;
     height: 180px;
     display: block;

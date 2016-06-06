@@ -439,6 +439,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/live\/header_title_live.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35464,
+		"inputAbbreviatedPath": "\/images\/live\/header_title_live.png",
+		"outputAbbreviatedPath": "\/images\/live\/header_title_live.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/live\/live-tv-heart-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -512,6 +523,17 @@
 		"initialSize": 69439,
 		"inputAbbreviatedPath": "\/images\/page\/header_title_aimg.png",
 		"outputAbbreviatedPath": "\/images\/page\/header_title_aimg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/header_title_blog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37760,
+		"inputAbbreviatedPath": "\/images\/page\/header_title_blog.png",
+		"outputAbbreviatedPath": "\/images\/page\/header_title_blog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

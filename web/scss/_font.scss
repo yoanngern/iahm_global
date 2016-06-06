@@ -250,6 +250,24 @@
     url('../fonts/309DFA_2_0.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'FuturaPT-Demi';
+    src: url('../fonts/3139B7_0_0.eot');
+    src: url('../fonts/3139B7_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/3139B7_0_0.woff2') format('woff2'),
+    url('../fonts/3139B7_0_0.woff') format('woff'),
+    url('../fonts/3139B7_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaPT-DemiObl';
+    src: url('../fonts/3139B7_1_0.eot');
+    src: url('../fonts/3139B7_1_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/3139B7_1_0.woff2') format('woff2'),
+    url('../fonts/3139B7_1_0.woff') format('woff'),
+    url('../fonts/3139B7_1_0.ttf') format('truetype');
+}
+
 /** regular **/
 
 $font: "titilliumregular", Arial, Helvetica, Verdana sans-serif;
@@ -276,3 +294,5 @@ $font-bold-u: "titilliumbold_upright", $font-semi-bold-u;
 $futura: "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif;
 $futura-bold: "FuturaPT-Heavy", $futura;
 $futura-i: "FuturaPT-BookObl", $futura;
+$futura-demi: "FuturaPT-Demi", $futura-bold;
+$futura-demi-i: "FuturaPT-DemiObl", $futura-demi;

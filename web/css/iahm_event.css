@@ -137,6 +137,14 @@ article, aside, footer, header, hgroup, nav, section, figure, figcaption {
   font-family: 'FuturaPT-Heavy';
   src: url("../fonts/309DFA_2_0.eot");
   src: url("../fonts/309DFA_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/309DFA_2_0.woff2") format("woff2"), url("../fonts/309DFA_2_0.woff") format("woff"), url("../fonts/309DFA_2_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FuturaPT-Demi';
+  src: url("../fonts/3139B7_0_0.eot");
+  src: url("../fonts/3139B7_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/3139B7_0_0.woff2") format("woff2"), url("../fonts/3139B7_0_0.woff") format("woff"), url("../fonts/3139B7_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FuturaPT-DemiObl';
+  src: url("../fonts/3139B7_1_0.eot");
+  src: url("../fonts/3139B7_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/3139B7_1_0.woff2") format("woff2"), url("../fonts/3139B7_1_0.woff") format("woff"), url("../fonts/3139B7_1_0.ttf") format("truetype"); }
 /** regular **/
 /** italic **/
 /** upright **/
@@ -478,9 +486,10 @@ section.content {
         padding-top: 0; }
 
 html, body {
-  overflow: inherit;
+  overflow: visible;
   background: -webkit-linear-gradient(#F9F9F9, #F6F6F6);
-  background: linear-gradient(#F9F9F9, #F6F6F6); }
+  background: linear-gradient(#F9F9F9, #F6F6F6);
+  position: relative; }
 
 html, body, input, textarea, button {
   color: #333333;
@@ -489,11 +498,14 @@ html, body, input, textarea, button {
   transform-style: preserve-3d;
   -webkit-font-smoothing: antialiased; }
 
+div.title {
+  padding-top: 140px; }
+
 div.header_title {
   height: 100px;
   display: block;
   width: 100%;
-  margin: 140px auto 50px; }
+  margin: 0px auto 50px; }
   div.header_title h1 {
     text-align: center;
     color: #FFFFFF;
@@ -506,7 +518,7 @@ div.header_title {
       line-height: 2em; }
 
 a.header_title {
-  margin-top: 140px;
+  margin-top: 0px;
   margin-bottom: 50px;
   height: 180px;
   display: block;

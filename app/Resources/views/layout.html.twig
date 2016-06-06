@@ -34,7 +34,7 @@
     {% include "::header_nav.html.twig" %}
 </header>
 
-
+<div class="title">
 {% block header %}
 
     <a href="{{ path('iahm_page_homepage') }}" class="banner"
@@ -53,6 +53,8 @@
     {% endif %}
 
 {% endblock %}
+</div>
+
 {% block body %}{% endblock %}
 
 <footer>
