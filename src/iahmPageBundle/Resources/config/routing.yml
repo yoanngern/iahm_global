@@ -6,6 +6,30 @@ iahm_page_donations:
     path:     /donations
     defaults: { _controller: iahmPageBundle:Default:donations }
 
+iahm_page_partner:
+    path:     /partner
+    defaults: { _controller: iahmPageBundle:Default:partner }
+
+iahm_page_partenaire:
+    path:     /partenaire
+    defaults: { _controller: iahmPageBundle:Default:partner }
+
+iahm_page_intercessor:
+    path:     /intercessor
+    defaults: { _controller: iahmPageBundle:Default:intercessor }
+
+iahm_page_intercesseur:
+    path:     /intercesseur
+    defaults: { _controller: iahmPageBundle:Default:intercessor }
+
+iahm_page_volunteer:
+    path:     /volunteer
+    defaults: { _controller: iahmPageBundle:Default:volunteer }
+
+iahm_page_benevole:
+    path:     /benevole
+    defaults: { _controller: iahmPageBundle:Default:volunteer }
+
 iahm_page_thanks:
     path:     /thanks
     defaults: { _controller: iahmPageBundle:Default:thanks }

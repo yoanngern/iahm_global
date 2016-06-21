@@ -409,11 +409,11 @@ section.content {
           text-decoration: underline; }
       section.content article.desc p em {
         font-family: "FuturaPT-Heavy", "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif; }
-    section.content article.desc ul li {
+    section.content article.desc ul li, section.content article.desc ol li {
       padding-left: 5px;
       margin-left: 30px;
       padding-bottom: 10px; }
-    section.content article.desc ul.block li {
+    section.content article.desc ul.block li, section.content article.desc ol.block li {
       display: inline-block;
       margin-left: 0;
       width: 250px; }
@@ -424,7 +424,10 @@ section.content {
       padding-top: 30px; }
     section.content article.desc h3 {
       font-size: 1.35em;
-      padding-top: 10px; }
+      padding-top: 10px;
+      max-width: 790px; }
+    section.content article.desc b {
+      font-family: "FuturaPT-DemiObl", "FuturaPT-Demi", "FuturaPT-Heavy", "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif; }
     section.content article.desc table.simple tbody tr td:first-of-type {
       padding-right: 10px; }
     section.content article.desc a.button {
@@ -438,6 +441,16 @@ section.content {
       margin-right: 30px; }
       section.content article.desc a.button:active, section.content article.desc a.button:visited {
         color: #FFFFFF; }
+    section.content article.desc a.btn_img {
+      vertical-align: top;
+      display: inline-block;
+      width: 262px;
+      height: 147px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: transparent;
+      margin-bottom: 20px; }
     section.content article.desc section.left {
       display: inline-block;
       width: 930px;
@@ -486,26 +499,28 @@ section.content {
         padding-top: 0; }
 
 html, body {
-  overflow: visible;
   background: -webkit-linear-gradient(#F9F9F9, #F6F6F6);
   background: linear-gradient(#F9F9F9, #F6F6F6);
-  position: relative; }
+  position: relative;
+  z-index: 0; }
 
 html, body, input, textarea, button {
   color: #333333;
   font-family: "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif;
   font-size: 18px;
-  transform-style: preserve-3d;
   -webkit-font-smoothing: antialiased; }
 
 div.title {
-  padding-top: 140px; }
+  padding-top: 140px;
+  height: auto;
+  display: block;
+  padding-bottom: 50px; }
 
 div.header_title {
   height: 100px;
   display: block;
   width: 100%;
-  margin: 0px auto 50px; }
+  margin: 0 auto; }
   div.header_title h1 {
     text-align: center;
     color: #FFFFFF;
@@ -517,21 +532,31 @@ div.header_title {
       padding: 10px 15px 8px 15px;
       line-height: 2em; }
 
+body div.country {
+  display: none; }
+body[data-country="Switzerland"] div[data-country="Switzerland"] {
+  display: inline-block; }
+body[data-country="United States"] div[data-country="United States"] {
+  display: inline-block; }
+body[data-country="France"] div[data-country="France"] {
+  display: inline-block; }
+body:not([data-country="Switzerland"], [data-country="United States"]) div[data-country="world"] {
+  display: inline-block; }
+
 a.header_title {
-  margin-top: 0px;
-  margin-bottom: 50px;
+  margin-top: 0;
   height: 180px;
   display: block;
   width: 100%;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .banner {
   width: 100%;
-  height: 560px;
+  height: 600px;
   display: block;
-  background-position: center bottom;
+  background-position: 30% top;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -630,7 +655,17 @@ article.more {
       article.more div.content div.pub div.item.double {
         width: 630px; }
 
+@media only screen and (max-width: 1700px) {
+  .banner {
+    height: 500px; } }
+@media only screen and (max-width: 1500px) {
+  .banner {
+    height: 450px; } }
 @media only screen and (max-width: 1320px) {
+  .banner {
+    background-position: 30% 60px;
+    height: 400px; }
+
   div.container {
     background-color: #FFFFFF; }
 
@@ -735,21 +770,18 @@ article.more {
   .banner {
     height: 350px; }
 
-  a.logo_live {
-    margin-top: 110px;
-    margin-bottom: 50px; }
-
-  a.header_title {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    height: 120px; }
+  div.title {
+    padding-top: 100px;
+    padding-bottom: 30px; }
+    div.title a.header_title {
+      height: 120px; }
 
   div.container {
     padding-top: 0; }
 
   section.content {
     padding-top: 5px; }
-    section.content article.desc p {
+    section.content article.desc p, section.content article.desc h2, section.content article.desc h3 {
       width: 100%;
       max-width: 580px; }
     section.content article.desc section.speaker div.bio {
@@ -783,15 +815,14 @@ article.more {
   .banner {
     height: 250px; }
 
-  a.logo_live {
-    margin-top: 73px;
-    margin-bottom: 26px;
-    height: 49px; }
+  .banner {
+    background-position: 30% 48px; }
 
-  a.header_title {
-    margin-top: 70px;
-    margin-bottom: 10px;
-    height: 100px; } }
+  div.title {
+    padding-top: 70px;
+    padding-bottom: 10px; }
+    div.title a.header_title {
+      height: 100px; } }
 @media only screen and (max-width: 540px) {
   section.content article.video div.countdown span {
     font-size: 2em; }

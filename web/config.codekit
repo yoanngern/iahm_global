@@ -549,6 +549,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/page\/partner\/header_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146011,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/header_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/header_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/header_bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128700,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/header_bg2.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/header_bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53499,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/header_title2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42360,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/header_title2.png",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/header_title2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/payment-credit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33177,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/payment-credit.png",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/payment-credit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/payment-paypal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17375,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/payment-paypal.png",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/payment-paypal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/payment-virement.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20910,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/payment-virement.png",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/payment-virement.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/speakers\/FitzgeraldBen.png": {
 		"fileType": 32768,
 		"ignore": 0,

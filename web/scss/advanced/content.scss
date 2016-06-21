@@ -90,7 +90,7 @@ section.content {
             }
 
         }
-        ul {
+        ul, ol {
             li {
                 padding-left: 5px;
                 margin-left: 30px;
@@ -115,6 +115,11 @@ section.content {
         h3 {
             font-size: 1.35em;
             padding-top: 10px;
+            max-width: 790px;
+        }
+
+        b {
+            font-family: $futura-demi-i;
         }
 
         table.simple {
@@ -144,6 +149,18 @@ section.content {
             &:visited {
                 color: $white;
             }
+        }
+
+        a.btn_img {
+            vertical-align: top;
+            display: inline-block;
+            width: 262px;
+            height: 147px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: transparent;
+            margin-bottom: 20px;
         }
 
         section.left {

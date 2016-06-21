@@ -1,0 +1,154 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_default.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block header %}
+    <a href="{{ path('iahm_page_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/partner/header_bg2.jpg') }}')"></a>
+
+
+    <a href="{{ path('iahm_page_partner') }}" class="header_title"
+       style="background-image: url('{{ asset('images/page/partner/header_title2.png') }}')"></a>
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <p><em>Faites partie de notre mission afin d’amener la guérison dans toutes les nations et
+                                toutes les dénominations, dont les trois piliers sont:</em></p>
+                        <br/>
+                        <ol>
+                            <li>Annoncer l’Evangile</li>
+                            <li>Unir les ministères de guérison</li>
+                            <li>Restaurer le ministère de guérison dans chaque communauté locale</li>
+                        </ol>
+
+                        <br/>
+
+                        <h3>Moyens de payement</h3>
+                        <br/>
+
+                        <div class="country" data-country="world">
+                            <a href="{{ path('iahm_page_form', {'id': '61712999397373'}) }}" class="btn_img" id="credit"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-credit.png') }}');">Payer
+                                par carte de crédit</a>
+
+                            <a href="{{ path('iahm_page_form', {'id': '61724345992362'}) }}" class="btn_img" id="paypal"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-paypal.png') }}');">Payer
+                                par PayPal</a>
+                        </div>
+
+                        <div class="country" data-country="Switzerland">
+                            <a href="{{ path('iahm_page_form', {'id': '61712999397373'}) }}" class="btn_img" id="credit"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-credit.png') }}');">Payer
+                                par carte de crédit</a>
+
+                            <a href="{{ path('iahm_page_form', {'id': '61724345992362'}) }}" class="btn_img" id="paypal"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-paypal.png') }}');">Payer
+                                par PayPal</a>
+                        </div>
+
+                        <div class="country" data-country="United States">
+                            <a href="{{ path('iahm_page_form', {'id': '61712999397373'}) }}" class="btn_img" id="credit"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-credit.png') }}');">Payer
+                                par carte de crédit</a>
+
+                            <a href="{{ path('iahm_page_form', {'id': '61724345992362'}) }}" class="btn_img" id="paypal"
+                               style="background-image: url('{{ asset('/images/page/partner/payment-paypal.png') }}');">Payer
+                                par PayPal</a>
+                        </div>
+
+                        <a href="{{ path('iahm_page_form', {'id': '61724025292350'}) }}" class="btn_img" id="virement"
+                           style="background-image: url('{{ asset('/images/page/partner/payment-virement.png') }}');">Payer
+                            par virement</a>
+
+
+
+
+                    </section>
+
+                    <section class="right">
+
+                        <h2>Infos bancaires</h2>
+
+                        <h3>Compte suisse</h3>
+                        <p>Postfinance - 3000 Berne<br/>
+                            CCP 10-27328-3<br/>
+                            IBAN CH61 0900 0000 1002 7328 3<br/>
+                            Mention : Partenaire AIMG</p>
+
+                        <h3>Compte en Euros</h3>
+                        <p>BPA ANNEMASSE<br/>
+                            BIC CCBPFRPPGRE<br/>
+                            FR76 1680 7000 2031 1483 2819 549<br/>
+                            AS NDECL AIMG – LES PRALETS – 1610 ORON (SUISSE)<br/>
+                            Mention : Partenaire AIMG</p>
+
+                        <h3>Payement par chèque</h3>
+                        <p>Libeller à AIMG – Oron-la-Ville, Suisse<br/>
+                            Mention : Partenaire AIMG</p>
+                    </section>
+
+                </article>
+
+                <article class="desc">
+
+                    <section class="left">
+                        <h2>Nous avons besoin de vous !</h2>
+
+                        <p>Aujourd’hui le Seigneur veut nous pousser dans l’élargissement à plusieurs niveaux!</p>
+
+                        <p>Nous sentons et observons qu’il y a des opportunités qui s’ouvrent et des terres promises
+                            dont nous devons nous emparer!</p>
+
+                        <p>Ne nous laissons pas aspirer par le passé et les craintes qui l’accompagnent, et ne nous
+                            laissons pas déstabiliser par les géants et l’opposition. Nous sentons qu’il y a une faveur,
+                            et que nous devons nous donner des capacités, nous professionnaliser et mettre plus de
+                            moyens là où les terrains sont prêts.</p>
+
+                        <p>Nous mettons toutes nos forces et notre cœur à accomplir le mandat reçu de Dieu pour l’AIMG :
+                            annoncer la bonne nouvelle de l’Evangile dans les nations afin qu’une multitude de vies
+                            soient sauvées, transformées et guéries en Jésus-Christ!</p>
+
+                        <p>Pour assumer ceci, nous avons besoin de vous! Nous désirons lever 500 partenaires financiers
+                            qui s’engagent mensuellement ou annuellement à soutenir l’AIMG!</p>
+
+                        <p>Vous ne pouvez peut-être pas vous impliquer pratiquement sur le terrain mais en soutenant
+                            financièrement ce mouvement, vous faites pleinement partie de chaque vie touchée et
+                            transformée! Aussi, nous recherchons 1’000 nouveaux intercesseurs afin d’atteindre le nombre
+                            de 2’000.</p>
+
+                        <p>Votre soutien permettra d’organiser des campagnes d’évangélisations Gospel Experience, des
+                            soirées Miracles et Guérisons, de distribuer gratuitement des Bibles, et de réaliser de
+                            nombreux autres projets!</p>
+
+                        <p>On compte sur vous! Un grand merci!</p>
+
+                        <p><b>- Jean-Luc Trachsel</b></p>
+                    </section>
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+
+{% endblock %}

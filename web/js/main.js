@@ -3,10 +3,27 @@
 
 $(document).ready(function () {
 
-    $("body > header").on("click", "#burger a", function () {
+    $("body > header").on("click", "#burger a", function (event) {
         event.preventDefault();
         $("body > header ul#mobile").toggleClass("show");
     });
+
+    $.ajax({
+        url:"http://freegeoip.net/json/",
+        dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
+        success:function(data){
+            // do stuff with json (in this case an array)
+            //alert("Success");
+            var country = data.country_name;
+            console.log(country);
+
+            $("body").attr("data-country", country);
+        },
+        error:function(){
+
+        }
+    });
+
 
 
     $end_time = $('#countdown').data("time");

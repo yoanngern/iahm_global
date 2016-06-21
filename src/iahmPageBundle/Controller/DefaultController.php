@@ -63,6 +63,24 @@ class DefaultController extends Controller
         ));
     }
 
+    public function partnerAction()
+    {
+        return $this->render('iahmPageBundle:Default:partner.html.twig', array(
+        ));
+    }
+
+    public function intercessorAction()
+    {
+        return $this->render('iahmPageBundle:Default:intercessor.html.twig', array(
+        ));
+    }
+
+    public function volunteerAction()
+    {
+        return $this->render('iahmPageBundle:Default:volunteer.html.twig', array(
+        ));
+    }
+
     public function thanksAction()
     {
 

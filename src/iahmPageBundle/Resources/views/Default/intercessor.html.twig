@@ -1,0 +1,88 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_default.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block header %}
+    <a href="{{ path('iahm_page_homepage') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+
+
+
+    <div class="header_title">
+        <h1><span>Intercesseur</span></h1>
+    </div>
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <h3>« … et comment peuvent-ils prêcher s'ils ne sont pas envoyés »</h3>
+                        <p><b>Romains 10:15</b></p>
+                        <br/>
+
+                        <p>Les intercesseurs sont les dons spéciaux de Dieu pour l'AIMG. Ils ont répondu à l'appel pour
+                            partager la vision de toucher le monde avec le message de la puissance du salut et de
+                            guérison de Dieu, ils se tiennent debout dans la prière avec les responsables de l'AIMG, et
+                            soutiennent régulièrement ce mouvement.</p>
+
+                        <p>En connexion avec nous, vous pouvez avoir une part de chaque récompense céleste pour les vies
+                            qui ont été transformées par ce ministère.</p>
+
+                        <p>Devenez intercesseur pour l'AIMG et engagez-vous devant Dieu à soutenir cette oeuvre par la
+                            prière et la mise en action de votre foi ainsi que par tout autre moyen que Dieu vous
+                            montrera.</p>
+
+                        <br/>
+
+                        <h3>"Quand vous devenez partenaire avec quelqu'un, la même puissance de Dieu qui est disponible
+                            pour cette personne devient disponible pour vous. Vous marchez littéralement dans la même
+                            onction que cette personne."</h3>
+                        <p><b>- Dr. Oral Roberts</b></p>
+                        <br/>
+
+                        <p>Alors engagez-vous simplement dans la prière et l'intercession, avec un fardeau pour les âmes
+                            perdues!</p>
+
+                        <p>Plus que jamais nous avons besoin d'une armée de combattants et de personnes se tenant sur la
+                            brèche pour intercéder en faveur des âmes, de ce ministère et des nations. Nous en
+                            recherchons mille! De tout coeur, nous vous remercions pour le temps que vous allez
+                            consacrer à la prière.</p>
+
+                        <p>Dès aujourd'hui, remplissez-le formulaire ci-dessous afin de rejoindre l'armée des
+                            intercesseurs de l'AIMG. Chaque mois environ, vous recevrez un e-mail avec des sujets et
+                            d'autres informations.</p>
+
+                        <br/>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '61723480457357'}) }}"
+                              class="button">Devenir intercesseur</a></p>
+
+
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+
+{% endblock %}
