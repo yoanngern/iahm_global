@@ -338,6 +338,11 @@ article.more {
 }
 
 @media only screen and (max-width: 1150px) {
+
+    section.content {
+        padding-bottom: 0px;
+    }
+
     footer {
         div.content {
             div.info {
@@ -354,6 +359,8 @@ article.more {
     section.content {
         width: 100%;
         max-width: inherit;
+
+
 
         article.desc {
             padding-left: 15px;

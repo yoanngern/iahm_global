@@ -549,6 +549,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/page\/intercessor\/header_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138412,
+		"inputAbbreviatedPath": "\/images\/page\/intercessor\/header_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/intercessor\/header_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/intercessor\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44919,
+		"inputAbbreviatedPath": "\/images\/page\/intercessor\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/page\/intercessor\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/intercessor\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229481,
+		"inputAbbreviatedPath": "\/images\/page\/intercessor\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/intercessor\/thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/page\/partner\/header_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -622,6 +655,50 @@
 		"initialSize": 20910,
 		"inputAbbreviatedPath": "\/images\/page\/partner\/payment-virement.png",
 		"outputAbbreviatedPath": "\/images\/page\/partner\/payment-virement.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/partner\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317780,
+		"inputAbbreviatedPath": "\/images\/page\/partner\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/partner\/thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/volunteer\/header_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161165,
+		"inputAbbreviatedPath": "\/images\/page\/volunteer\/header_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/volunteer\/header_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/volunteer\/header_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38019,
+		"inputAbbreviatedPath": "\/images\/page\/volunteer\/header_title.png",
+		"outputAbbreviatedPath": "\/images\/page\/volunteer\/header_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/page\/volunteer\/thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296376,
+		"inputAbbreviatedPath": "\/images\/page\/volunteer\/thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/page\/volunteer\/thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -726,6 +726,9 @@ article.more {
   footer div.content nav.sitemap {
     display: none; } }
 @media only screen and (max-width: 1150px) {
+  section.content {
+    padding-bottom: 0px; }
+
   footer div.content div.info div.address,
   footer div.content div.info ul.phone {
     display: none; } }

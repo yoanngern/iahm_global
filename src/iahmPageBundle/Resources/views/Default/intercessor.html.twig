@@ -7,14 +7,12 @@
 {% endblock %}
 
 {% block header %}
-    <a href="{{ path('iahm_page_homepage') }}" class="banner"
-       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+    <a href="{{ path('iahm_page_intercessor') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/intercessor/header_bg.jpg') }}')"></a>
 
 
-
-    <div class="header_title">
-        <h1><span>Intercesseur</span></h1>
-    </div>
+    <a href="{{ path('iahm_page_intercessor') }}" class="header_title"
+       style="background-image: url('{{ asset('images/page/intercessor/header_title.png') }}')"></a>
 {% endblock %}
 
 {% block body %}
@@ -83,6 +81,39 @@
 
 
     </div>
+
+    <article class="more">
+
+        <div class="content">
+            <h1>{{ 'nav.join_us'|trans }}</h1>
+            {% spaceless %}
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.iahm_partner'|trans }}"
+                           href="{{ path('iahm_page_partner') }}"
+                           style="background-image: url('{{ asset('images/page/partner/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.intercessor'|trans }}"
+                           href="{{ path('iahm_page_intercessor') }}"
+                           style="background-image: url('{{ asset('images/page/intercessor/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.volunteer'|trans }}"
+                           href="{{ path('iahm_page_volunteer') }}"
+                           style="background-image: url('{{ asset('images/page/volunteer/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+            {% endspaceless %}
+        </div>
+    </article>
 
 
 {% endblock %}

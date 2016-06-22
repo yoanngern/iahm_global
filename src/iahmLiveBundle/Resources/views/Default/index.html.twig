@@ -119,21 +119,69 @@
     <article class="more">
 
         <div class="content">
+            <h1>{{ 'event.next_events'|trans }}</h1>
             {% spaceless %}
-                {% for ad in sub_ads %}
-                    <div class="pub">
-                        <div class="item">
-                            <a target="_blank"
-                               title="{{ ad.title }}"
-                               href="{{ ad.url }}"
-                               style="background-image: url('{{ asset('images/' ~ ad.image) }}')">
-                            </a>
-                        </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Amsterdam 2017"
+                           href="{{ path('iahm_events_event', {'id': 'amsterdam'}) }}"
+                           style="background-image: url('{{ asset('images/event/amsterdam/thumb.jpg') }}')">
+                        </a>
                     </div>
-                {% endfor %}
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Institut de Guérison"
+                           href="{{ path('iahm_events_event', {'id': 'institut'}) }}"
+                           style="background-image: url('{{ asset('images/event/institut/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="Journée privilège"
+                           href="{{ path('iahm_events_event', {'id': 'privilege'}) }}"
+                           style="background-image: url('{{ asset('images/event/privilege/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
             {% endspaceless %}
         </div>
     </article>
+
+    <article class="more">
+
+        <div class="content">
+            {% spaceless %}
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.iahm_partner'|trans }}"
+                           href="{{ path('iahm_page_partner') }}"
+                           style="background-image: url('{{ asset('images/page/partner/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.intercessor'|trans }}"
+                           href="{{ path('iahm_page_intercessor') }}"
+                           style="background-image: url('{{ asset('images/page/intercessor/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+                <div class="pub">
+                    <div class="item">
+                        <a title="{{ 'nav.volunteer'|trans }}"
+                           href="{{ path('iahm_page_volunteer') }}"
+                           style="background-image: url('{{ asset('images/page/volunteer/thumb.jpg') }}')">
+                        </a>
+                    </div>
+                </div>
+            {% endspaceless %}
+        </div>
+    </article>
+
+
 
 
 
