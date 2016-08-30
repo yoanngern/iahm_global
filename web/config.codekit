@@ -406,6 +406,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/live\/2016.09.10_GoreChris_en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 587374,
+		"inputAbbreviatedPath": "\/images\/live\/2016.09.10_GoreChris_en.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.09.10_GoreChris_en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/live\/2016.09.10_GoreChris_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 588764,
+		"inputAbbreviatedPath": "\/images\/live\/2016.09.10_GoreChris_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/live\/2016.09.10_GoreChris_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/live\/banner-bg-corpo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
