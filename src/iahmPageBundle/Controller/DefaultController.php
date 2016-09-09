@@ -54,6 +54,15 @@ class DefaultController extends Controller
         ));
     }
 
+	public function memberAction($_locale)
+	{
+		$language = $_locale;
+
+
+		return $this->render('iahmPageBundle:Exchange:member_'.$language.'.html.twig', array(
+		));
+	}
+
     public function donationsAction()
     {
 

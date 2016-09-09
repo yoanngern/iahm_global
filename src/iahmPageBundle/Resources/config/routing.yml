@@ -2,6 +2,10 @@ iahm_page_homepage:
     path:     /
     defaults: { _controller: iahmPageBundle:Default:index }
 
+iahm_page_member:
+    path:     /member
+    defaults: { _controller: iahmPageBundle:Default:member }
+
 iahm_page_donations:
     path:     /donations
     defaults: { _controller: iahmPageBundle:Default:donations }

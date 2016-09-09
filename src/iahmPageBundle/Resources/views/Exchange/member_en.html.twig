@@ -1,0 +1,77 @@
+{% extends "iahmPageBundle:Exchange:layout.html.twig" %}
+
+{% block body %}
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <h2>Resources Platform</h2>
+
+                        <p>This is the resource platform for local IAHM.</p>
+
+                        <h2>Forms</h2>
+                        <p>For the sake of simplification, we created different forms to avoid that you send us your
+                            information by e-mail and to simplify the coordination between the local offices and the
+                            international office, we ask you to complete the following forms:</p>
+
+                        <h3>New date</h3>
+                        <p>This form is intended to communicate to the international office the different information
+                            specific to your event. You can also order flyers for your next event Miracles & Healings
+                            Night.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62492636228360'}) }}"
+                              class="button">Fill in the form</a></p>
+
+                        <br/>
+
+                        <h3>Ordering products</h3>
+                        <p>We offer you to order different products that we have created especially for you. You can
+                            order Bibles, presentation documents of IAHM, advertorials,...</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493393703359'}) }}"
+                              class="button">Fill in the form</a></p>
+
+                        <br/>
+
+                        <h3>Report</h3>
+                        <p>The international team unfortunately can not be present at each of your meetings. That is why
+                            we invite you to make a report, a balance sheet to share with us what God has done at the
+                            meeting.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493577452364'}) }}"
+                              class="button">Fill in the form</a></p>
+
+                        <br/>
+
+                        <h3>Testimony</h3>
+                        <p>God does miracles in your various activities. Let us know so we can communicate it to the
+                            world.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493520925357'}) }}"
+                              class="button">Fill in the form</a></p>
+
+
+                        <br/>
+
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+
+{% endblock %}

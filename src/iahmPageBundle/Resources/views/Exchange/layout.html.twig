@@ -1,0 +1,15 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ 'general.iahm'|trans }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/iahm_default.css') }}" type="text/css"/>
+{% endblock %}
+
+{% block header %}
+    <a href="{{ path('iahm_page_member') }}" class="banner"
+       style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
+
+    <a href="{{ path('iahm_page_member') }}" class="header_title"
+       style="background-image: url('{{ asset('images/page/header_title_aimg.png') }}')"></a>
+{% endblock %}

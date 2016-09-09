@@ -1,0 +1,79 @@
+{% extends "iahmPageBundle:Exchange:layout.html.twig" %}
+
+{% block body %}
+
+    <div class="container">
+
+        <section class="content">
+
+            {% spaceless %}
+
+                <article class="desc">
+
+                    <section class="left">
+
+                        <h2>Plateforme de ressources</h2>
+
+                        <p>Ceci est la plateforme de ressources destinée au AIMG locaux.</p>
+
+                        <h2>Formulaires</h2>
+                        <p>Dans un but de simplification, nous avons créé différents formulaires afin de vous éviter de
+                            nous transmettre vos informations par e-mail et donc pour simplifier la coordination entre
+                            les bureaux locaux et le bureau international, nous vous demandons de remplir les
+                            formulaires suivants:</p>
+
+                        <h3>Nouvelle date</h3>
+                        <p>Ce formulaire a pour but de transmettre au bureau international les différentes informations
+                            propres à votre événement. Vous pourrez également commander des flyers pour votre prochaine
+                            soirée M&G.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62492636228360'}) }}"
+                              class="button">Remplir le formulaire</a></p>
+
+                        <br/>
+
+                        <h3>Commande de produits</h3>
+                        <p>Nous vous proposons de commander différents produits que nous avons créé spécialement pour
+                            vous. Vous pourrez commander des Bibles, des documents de présentation de l’AIMG, des
+                            articles publicitaires, ...</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493393703359'}) }}"
+                              class="button">Remplir le formulaire</a></p>
+
+                        <br/>
+
+                        <h3>Bilan</h3>
+                        <p>L’équipe internationale ne peut malheureusement pas être présente lors de chacune de vos
+                            soirées. C’est pour cette raison que nous vous invitons à faire un rapport, un bilan afin de
+                            nous partager ce que Dieu a fait durant la soirée.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493577452364'}) }}"
+                              class="button">Remplir le formulaire</a></p>
+
+                        <br/>
+
+                        <h3>Témoignage</h3>
+                        <p>Dieu fait des miracles dans vos différentes activités. Faites-le nous savoir afin que nous
+                            puissions le communiquer au monde entier.</p>
+
+                        <p><a href="{{ path('iahm_page_form', {'id': '62493520925357'}) }}"
+                              class="button">Remplir le formulaire</a></p>
+
+
+                        <br/>
+
+                    </section>
+
+                </article>
+
+
+
+            {% endspaceless %}
+
+        </section>
+
+
+    </div>
+
+
+{% endblock %}
