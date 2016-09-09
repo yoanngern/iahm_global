@@ -10,6 +10,19 @@
     <a href="{{ path('iahm_page_member') }}" class="banner"
        style="background-image: url('{{ asset('images/page/header_red.jpg') }}')"></a>
 
-    <a href="{{ path('iahm_page_member') }}" class="header_title"
-       style="background-image: url('{{ asset('images/page/header_title_aimg.png') }}')"></a>
+
+
+
+
+    {% if app.request.locale == "fr" %}
+
+        <a href="{{ path('iahm_page_member') }}" class="header_title"
+           style="background-image: url('{{ asset('images/page/header_title_aimg.png') }}')"></a>
+
+    {% else %}
+
+        <a href="{{ path('iahm_page_member') }}" class="header_title"
+           style="background-image: url('{{ asset('images/page/header_title_iahm.png') }}')"></a>
+
+    {% endif %}
 {% endblock %}
