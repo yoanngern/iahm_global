@@ -351,7 +351,7 @@ David a voyagé dans tous les Etats-Unis et autour du monde équipant les chrét
 			'live'         => array(
 				'start_streaming' => '2016-09-10 19:33:00',
 				'youtube_id'      => 'oZ4wXyrmvlg',
-				'facebook_link' => 'https://www.facebook.com/iahm.international/videos/1121601907930735/'
+				'facebook_link' => 'https://www.facebook.com/iahm.international/videos/1121630187927907/'
 			),
 
 			'image'   => '2016.09.10_GoreChris',
