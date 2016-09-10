@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="live facebook">
+    <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/content.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/content.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_default.css" afterPath="$PROJECT_DIR$/web/css/iahm_default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_event.css" afterPath="$PROJECT_DIR$/web/css/iahm_event.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_live.css" afterPath="$PROJECT_DIR$/web/css/iahm_live.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/advanced/content.scss" afterPath="$PROJECT_DIR$/web/scss/advanced/content.scss" />
     </list>
     <ignored path="iahm_global.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,62 +34,79 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-              <folding>
-                <marker date="1473494473000" expanded="true" signature="970:7777" ph="{% block body ...%}" />
-                <marker date="1473494473000" expanded="true" signature="1066:4949" ph="{% spaceless ...%}" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scss/advanced/content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="351" column="33" selection-start-line="351" selection-start-column="33" selection-end-line="351" selection-end-column="33" />
+            <state relative-caret-position="555">
+              <caret line="352" column="51" selection-start-line="352" selection-start-column="51" selection-end-line="352" selection-end-column="51" />
               <folding>
-                <marker date="1473495296000" expanded="true" signature="784:967" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="1040:1186" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="1257:1462" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="1907:2045" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="2117:2250" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="2321:2510" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="4398:4581" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="4654:4800" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="4871:5076" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="5538:5676" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="5748:5881" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="5952:6141" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="8868:9051" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="9124:9270" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="9341:9546" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="10008:10146" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="10218:10351" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="10422:10611" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="12847:13030" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="13103:13249" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="13320:13525" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="13987:14125" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="14197:14330" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="14401:14590" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="17503:17686" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="17759:17905" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="17976:18181" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="18643:18781" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="18853:18986" ph="..." />
-                <marker date="1473495296000" expanded="true" signature="19057:19246" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="784:967" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="1040:1186" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="1257:1462" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="1907:2045" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="2117:2250" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="2321:2510" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="4398:4581" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="4654:4800" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="4871:5076" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="5538:5676" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="5748:5881" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="5952:6141" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="8868:9051" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="9124:9270" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="9341:9546" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="10008:10146" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="10218:10351" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="10422:10611" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="12847:13030" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="13103:13249" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="13320:13525" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="13987:14125" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="14197:14330" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="14401:14590" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="17503:17686" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="17759:17905" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="17976:18181" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="18643:18781" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="18853:18986" ph="..." />
+                <marker date="1473501476000" expanded="true" signature="19057:19246" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -134,14 +159,12 @@
         <option value="$PROJECT_DIR$/web/scss/advanced/header.scss" />
         <option value="$PROJECT_DIR$/app/Resources/views/header_nav.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/footer_nav.html.twig" />
-        <option value="$PROJECT_DIR$/web/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/partner.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/intercessor.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/volunteer.html.twig" />
         <option value="$PROJECT_DIR$/web/scss/advanced/base.scss" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/home.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/member.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
@@ -150,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Exchange/member_fr.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Exchange/member_en.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Exchange/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/web/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" />
       </list>
@@ -211,6 +236,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,6 +445,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iahm_global" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -479,14 +598,7 @@
       <workItem from="1473405082779" duration="12000" />
       <workItem from="1473407512733" duration="1504000" />
       <workItem from="1473417448814" duration="20000" />
-      <workItem from="1473492792308" duration="2261000" />
-    </task>
-    <task id="LOCAL-00022" summary="update ads">
-      <created>1457642899109</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1457642899109</updated>
+      <workItem from="1473492792308" duration="6699000" />
     </task>
     <task id="LOCAL-00023" summary="change image for partenaire">
       <created>1457711111170</created>
@@ -824,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473495318272</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="live facebook">
+      <created>1473495735099</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1473495735099</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38861000" />
+    <option name="totallyTimeSpent" value="43299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -839,7 +958,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5022951" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32270917" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32159624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1052,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/iahm_event.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/iahm_default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1077,20 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="253" column="33" selection-start-line="253" selection-start-column="33" selection-end-line="253" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/iahm_default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/iahm_live.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1147,13 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/advanced/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1224,14 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="63" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Exchange/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1272,61 +1355,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding>
-            <marker date="1473494473000" expanded="true" signature="970:7777" ph="{% block body ...%}" />
-            <marker date="1473494473000" expanded="true" signature="1066:4949" ph="{% spaceless ...%}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="351" column="33" selection-start-line="351" selection-start-column="33" selection-end-line="351" selection-end-column="33" />
-          <folding>
-            <marker date="1473495296000" expanded="true" signature="784:967" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="1040:1186" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="1257:1462" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="1907:2045" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="2117:2250" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="2321:2510" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="4398:4581" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="4654:4800" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="4871:5076" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="5538:5676" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="5748:5881" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="5952:6141" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="8868:9051" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="9124:9270" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="9341:9546" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="10008:10146" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="10218:10351" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="10422:10611" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="12847:13030" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="13103:13249" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="13320:13525" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="13987:14125" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="14197:14330" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="14401:14590" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="17503:17686" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="17759:17905" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="17976:18181" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="18643:18781" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="18853:18986" ph="..." />
-            <marker date="1473495296000" expanded="true" signature="19057:19246" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scss/iahm_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scss/iahm_event.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scss/iahm_live.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scss/advanced/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="352" column="51" selection-start-line="352" selection-start-column="51" selection-end-line="352" selection-end-column="51" />
+          <folding>
+            <marker date="1473501476000" expanded="true" signature="784:967" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="1040:1186" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="1257:1462" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="1907:2045" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="2117:2250" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="2321:2510" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="4398:4581" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="4654:4800" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="4871:5076" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="5538:5676" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="5748:5881" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="5952:6141" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="8868:9051" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="9124:9270" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="9341:9546" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="10008:10146" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="10218:10351" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="10422:10611" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="12847:13030" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="13103:13249" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="13320:13525" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="13987:14125" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="14197:14330" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="14401:14590" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="17503:17686" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="17759:17905" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="17976:18181" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="18643:18781" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="18853:18986" ph="..." />
+            <marker date="1473501476000" expanded="true" signature="19057:19246" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

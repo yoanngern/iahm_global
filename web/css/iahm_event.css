@@ -365,12 +365,15 @@ section.content {
     margin-left: 15px;
     margin-right: 15px;
     max-width: 960px;
-    width: 100%; }
-    section.content article.video iframe {
-      margin: 0 auto;
-      display: block;
-      width: 960px;
-      height: 540px; }
+    width: 100%;
+    /*
+    iframe {
+        margin: 0 auto;
+        display: block;
+        width: 960px;
+        height: 540px;
+    }
+    */ }
     section.content article.video div.countdown {
       background-size: cover;
       width: 960px;
