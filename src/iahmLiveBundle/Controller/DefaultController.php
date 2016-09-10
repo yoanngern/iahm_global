@@ -347,10 +347,11 @@ David a voyagé dans tous les Etats-Unis et autour du monde équipant les chrét
                             +41 21 907 44 44 (14h à 17h30)</p>',
 				),
 			),
-			'date'         => '2016-09-10 19:30:00',
+			'date'         => '2016-09-10 19:33:00',
 			'live'         => array(
-				'start_streaming' => '2016-09-10 19:00:00',
+				'start_streaming' => '2016-09-10 19:33:00',
 				'youtube_id'      => 'oZ4wXyrmvlg',
+				'facebook_link' => 'https://www.facebook.com/100013476124236/videos/108189176306953/'
 			),
 
 			'image'   => '2016.09.10_GoreChris',

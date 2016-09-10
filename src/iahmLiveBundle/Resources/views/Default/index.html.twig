@@ -38,7 +38,9 @@
 
             {% spaceless %}
 
-                <article class="video" id="countdown" data-live="off" data-time="{{ event.live.start_streaming|date('Y/m/d H:i:s') }}" data-lang="{{ app.request.locale }}">
+                <article class="video" id="countdown" data-live="off"
+                         data-time="{{ event.live.start_streaming|date('Y/m/d H:i:s') }}"
+                         data-lang="{{ app.request.locale }}">
 
                     <div class="countdown"
                          style="background-image: url('{{ asset('images/live/' ~ event.image ~ '_' ~ app.request.locale ~'.jpg') }}')">
@@ -47,9 +49,27 @@
 
                     </div>
 
+                    <!-- Load Facebook SDK for JavaScript -->
+                    <div id="fb-root"></div>
+                    <script>(function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+
+                    <!-- Your embedded video player code -->
+                    <div class="fb-video" data-href="{{ event.live.facebook_link }}"
+                         data-show-text="false">
+                    </div>
+
+                    <!--
                     <iframe width="100%" height="100%"
                             src="https://www.youtube.com/embed/{{ event.live.youtube_id }}?rel=0&amp;showinfo=0"
                             frameborder="0" allowfullscreen></iframe>
+                    -->
 
                 </article>
 
@@ -85,7 +105,8 @@
                         <p>{{ pres.intro }}</p>
 
                         <section class="speaker">
-                            <h2>{{ 'general.speaker'|trans }}: {{ event.speaker.name }} ({{ event.speaker.country }})</h2>
+                            <h2>{{ 'general.speaker'|trans }}: {{ event.speaker.name }} ({{ event.speaker.country }}
+                                )</h2>
 
                             <div class="picture">
                                 <img src="{{ asset('images/speakers/' ~ event.speaker.image) }}" alt="">
@@ -111,7 +132,6 @@
             {% endspaceless %}
 
         </section>
-
 
 
     </div>
