@@ -6,6 +6,10 @@ footer {
     padding-bottom: 40px;
     height: auto;
     position: relative;
+    color: $black;
+    font-family: $futura;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
 
     .content {
         padding-top: 20px;

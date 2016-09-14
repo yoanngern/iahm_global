@@ -3,6 +3,10 @@ body > header {
     position: fixed;
     top: 0;
     z-index: 1000;
+    color: $black;
+    font-family: $futura;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
 
 
     nav {

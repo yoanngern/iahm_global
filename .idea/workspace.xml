@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4aa7c1-be7a-404c-8b8e-4902cb96055f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scss/iahm_external.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/scss/css/content.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/footer.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/footer.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/header.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/3a680728433ab2033d201654fa9b6e4cb86daca8/header.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/6dbfa36d2834590c66849fbebacde3d447f6c258/iahm_default.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/6dbfa36d2834590c66849fbebacde3d447f6c258/iahm_default.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.codekit" afterPath="$PROJECT_DIR$/web/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_default.css" afterPath="$PROJECT_DIR$/web/css/iahm_default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_event.css" afterPath="$PROJECT_DIR$/web/css/iahm_event.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_external.css" afterPath="$PROJECT_DIR$/web/css/iahm_external.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/iahm_live.css" afterPath="$PROJECT_DIR$/web/css/iahm_live.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/advanced/footer.scss" afterPath="$PROJECT_DIR$/web/scss/advanced/footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/advanced/header.scss" afterPath="$PROJECT_DIR$/web/scss/advanced/header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/iahm_default.scss" afterPath="$PROJECT_DIR$/web/scss/iahm_default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/iahm_external.scss" afterPath="$PROJECT_DIR$/web/scss/iahm_external.scss" />
     </list>
     <ignored path="iahm_global.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +33,52 @@
     <favorites_list name="iahm_global" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="iahm_external.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scss/iahm_external.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scss/advanced/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scss/advanced/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iahm_default.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scss/iahm_default.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scss/advanced/base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -52,11 +100,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/iahmLiveBundle/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/app/autoload.php" />
-        <option value="$PROJECT_DIR$/web/scss/advanced/footer.scss" />
         <option value="$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmEventBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/web/scss/iahm_default.scss" />
         <option value="$PROJECT_DIR$/web/scss/_color.scss" />
         <option value="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/app/config/config_prod.yml" />
@@ -79,7 +125,6 @@
         <option value="$PROJECT_DIR$/web/scss/_font.scss" />
         <option value="$PROJECT_DIR$/web/scss/iahm_live.scss" />
         <option value="$PROJECT_DIR$/src/iahmPageBundle/Resources/views/Default/donations.html.twig" />
-        <option value="$PROJECT_DIR$/web/scss/advanced/header.scss" />
         <option value="$PROJECT_DIR$/app/Resources/views/header_nav.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/footer_nav.html.twig" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
@@ -100,6 +145,9 @@
         <option value="$PROJECT_DIR$/web/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/src/iahmLiveBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/iahmLiveBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/web/scss/advanced/footer.scss" />
+        <option value="$PROJECT_DIR$/web/scss/advanced/header.scss" />
+        <option value="$PROJECT_DIR$/web/scss/iahm_default.scss" />
         <option value="$PROJECT_DIR$/web/scss/iahm_external.scss" />
       </list>
     </option>
@@ -143,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,7 +462,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -524,14 +572,8 @@
       <workItem from="1473417448814" duration="20000" />
       <workItem from="1473492792308" duration="7883000" />
       <workItem from="1473596531115" duration="32000" />
-      <workItem from="1473855754035" duration="694000" />
-    </task>
-    <task id="LOCAL-00026" summary="bug fixed with nav">
-      <created>1458669000778</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1458669000778</updated>
+      <workItem from="1473855754035" duration="736000" />
+      <workItem from="1473856607792" duration="242000" />
     </task>
     <task id="LOCAL-00027" summary="change language routing">
       <created>1458743829317</created>
@@ -869,11 +911,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473532553768</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add external stylesheet">
+      <created>1473856487782</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1473856487784</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45209000" />
+    <option name="totallyTimeSpent" value="45493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -893,7 +942,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32270917" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.49770492" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -937,7 +986,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="change home" />
     <MESSAGE value="change ads" />
     <MESSAGE value="change Youtube id" />
     <MESSAGE value="add event 3" />
@@ -962,7 +1010,8 @@
     <MESSAGE value="add new live" />
     <MESSAGE value="add resources platform" />
     <MESSAGE value="live facebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="live facebook" />
+    <MESSAGE value="add external stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add external stylesheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1146,13 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/advanced/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iahmEventBundle/Resources/views/Default/institut.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
@@ -1333,40 +1375,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/scss/advanced/header.scss">
+    <entry file="file://$PROJECT_DIR$/web/scss/advanced/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scss/advanced/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1051">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scss/advanced/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scss/iahm_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scss/iahm_external.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsFz7ZfoYNdhfR2lK0FqEfV4jwFMR4gsdvtURlDfzya9owUUkJ/HtzU27+NsXn0uAoTxITFgU3bhPBZSAar6/iAqoeulxyfcb5kPFFWrpVFNELDtzvRSdHOCSOsy7T+g2hMniJK7Zjm8dV5UYSODijlwBpvq7jbNsqKgXHYDW//WvJp/1jyDAcqnGxEEogNnPwwl13bPt+3bAcksYmgSbteuafzF1zGCjxWZ16qmiLIqXR0cA+Fl3/TTKQAsNTWmFzQ==</data>
+    <data>AAAAsBfoJfgLMwQuKiW4Qg7jsTScq/0/sC1bVEIN5eW42wd/MX4I42qDSin/Ytm73sLMgykBm5hVMe+5VPvC9kudsP62UGovI5HY1Ikxl7wIJrADNZTBDt6Z53QsT00R4IDLSK/nrIPRc13LlU3NtT7MUa+w9wkLWUXcN3b3fDWEAXbVIOGyQBEyL9zCLiyZWIY/KkLzQiun7a+fEXaHuiAntSwKlgY2E6MUSRvB7p/jNLieTU8iYF1KYGokLuxDxco/BQ==</data>
   </component>
 </project>
