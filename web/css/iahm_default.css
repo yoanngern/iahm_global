@@ -162,10 +162,10 @@ body > header {
   top: 0;
   background-color: #333333; }
   body > header nav {
-    width: 100%;
-    max-width: 1320px;
+    max-width: 980px;
     height: 60px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0 20px; }
     body > header nav ul#desktop {
       display: inline-block;
       width: 100%; }
@@ -181,7 +181,7 @@ body > header {
           font-size: 22px;
           display: block;
           height: 100%;
-          padding: 0 20px; }
+          padding: 0 10px 0 30px; }
           body > header nav ul#desktop li a:hover {
             background-color: #454545; }
           body > header nav ul#desktop li a:active {
@@ -193,7 +193,7 @@ body > header {
           display: inline-block;
           width: 50px;
           height: 40px;
-          margin: 10px 0px 0px 25px;
+          margin: 10px 0px 0px 10px;
           background-image: url("../images/logo_simple.png");
           background-position: center;
           background-repeat: no-repeat;
